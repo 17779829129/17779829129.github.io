@@ -1,432 +1,364 @@
-<!DOCTYPE html>
-<html 
-	lang="zh-cn">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		
-<link rel="stylesheet" href="/css/layout.css">
+<!DOCTYPE html><html lang="zh-cn"><head><link rel="stylesheet" type="text/css" href="/css/nerd.css"><link rel="stylesheet" type="text/css" href="/css/loadingcar.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-butterfly-swiper-marcus/lib/skills.min.css"><link rel="preload" as="style" type="text/css" href="/css/nerd.css"><link rel="preload" as="font" type="font/ttf" href="/fonts/font.woff2" crossorigin="anonymous"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/element-ui@2.15.6/packages/theme-chalk/lib/index.css"><script async="" data-pjax="" src="/js/custom.js"></script><script src="/js/random.js"></script><script async="" src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script><script async="" src="https://cdn.jsdelivr.net/npm/element-ui@2.15.6/lib/index.js"></script><script async="" data-pjax="" src="/js/linksbar.js"></script><script async="" src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/carousel-touch.min.js"></script><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>html基础知识(一) | 落叶之秋の小窝</title><meta name="author" content="落叶之秋"><meta name="copyright" content="落叶之秋"><meta name="format-detection" content="telephone=no"><meta name="theme-color"><meta name="description" content="HTML基本框架&lt;html&gt;&lt;head&gt;&lt;tittle&gt;网页的标题&lt;&#x2F;tittle&gt;&lt;&#x2F;head&gt;&lt;body&gt;网页的主题内容&lt;&#x2F;body&gt;&lt;&#x2F;html&gt; HTML标签标题&lt;h1&gt;一级标题&lt;&#x2F;h1&gt;&lt;h2&gt;二级标题&lt;&#x2F;h2&gt;依此类推，一共有6级标题 段落&amp;l">
+<meta property="og:type" content="article">
+<meta property="og:title" content="html基础知识(一)">
+<meta property="og:url" content="http://example.com/2023/06/07/html/index.html">
+<meta property="og:site_name" content="落叶之秋の小窝">
+<meta property="og:description" content="HTML基本框架&lt;html&gt;&lt;head&gt;&lt;tittle&gt;网页的标题&lt;&#x2F;tittle&gt;&lt;&#x2F;head&gt;&lt;body&gt;网页的主题内容&lt;&#x2F;body&gt;&lt;&#x2F;html&gt; HTML标签标题&lt;h1&gt;一级标题&lt;&#x2F;h1&gt;&lt;h2&gt;二级标题&lt;&#x2F;h2&gt;依此类推，一共有6级标题 段落&amp;l">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/images/24.jpg">
+<meta property="article:published_time" content="2023-06-07T02:27:29.000Z">
+<meta property="article:modified_time" content="2023-06-23T00:53:38.375Z">
+<meta property="article:author" content="落叶之秋">
+<meta property="article:tag" content="HTML">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/images/24.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2023/06/07/html/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.bilicdn.tk/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.bilicdn.tk/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"We didn't find any results for the search: ${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: undefined,
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: 'days',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"Author: 落叶之秋","link":"Link: ","source":"Source: 落叶之秋の小窝","info":"Copyright is owned by the author. For commercial reprints, please contact the author for authorization. For non-commercial reprints, please indicate the source."}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.bilicdn.tk/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.bilicdn.tk/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'html基础知识(一)',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-06-23 08:53:38'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
 
-		
-		<title> html基础知识(一) -  落叶之秋の小窝</title>
-		<link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css" />
-		<script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
-		<!-- lazyload -->
-		<script src="https://unpkg.com/lazysizes@5.1.0/lazysizes.min.js"></script>
-		<!-- smooth-scrolling -->
-		<script src="https://unpkg.com/smooth-scrolling.js@1.0.0"></script>
-		<!-- highlight -->
-		<link rel="stylesheet" href="//unpkg.com/@highlightjs/cdn-assets@11.6.0/styles/atom-one-dark.min.css" />
-		<script src="//unpkg.com/@highlightjs/cdn-assets@11.6.0/highlight.min.js"></script>
-		<!-- 预置 kiraicon -->
-		
-<link rel="stylesheet" href="/lib/iconfont/iconfont.css">
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
 
-		
-		<link
-			rel="shortcut icon"
-			href="/images/favicon.png"
-			type="image/png"
-		/>
-		
-<link rel="stylesheet" href="/deps/css/APlayer.min.css">
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
 
-		
-			
-				
-<link rel="stylesheet" href="/style.css">
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
 
-			
-				
-<link rel="stylesheet" href="/custom.css">
-
-			
-		
-		
-<script src="/deps/js/APlayer.min.js"></script>
-<script src="/deps/js/Meting.min.js"></script>
-
-	<meta name="generator" content="Hexo 6.3.0"></head>
-
-	<body>
-		<div
-			class="kira-background"
-			style="background-image: url('/images/background.jpg')"
-		></div>
-		<div class="kira-header">
-    <a
-        class="kira-drawer-button mdui-ripple"
-        title="导航栏"
-        onclick="document.querySelector('.kira-sidebar-modal').classList.add('show');document.querySelector('.kira-sidebar#sidebar').classList.add('show');"
-    >
-        <i class="kirafont icon-menu"></i>
-    </a>
-    <a href="/" title="落叶之秋の小窝">
-        <img
-			src="/images/avatar.jpg"
-			alt="落叶之秋"
-		/>
-    </a>
-</div>
-		<div class="kira-body">
-			<div class="kira-sidebar" id="sidebar">
-	<div class="kira-avatar mdui-ripple">
-		<a href="/images/avatar.jpg" title="落叶之秋">
-			<img
-				src="/images/avatar.jpg"
-				alt="落叶之秋"
-			/>
-		</a>
-	</div>
-	<div class="kira-count">
-		<div><span>文章</span>5</div>
-		<div><span>标签</span>3</div>
-		<div><span>分类</span>2</div>
-	</div>
-	<div class="kira-list">
-		
-		<a
-			class="kira-list-item mdui-ripple false"
-			href="/"
-			title="回到首页"
-		>
-			<i
-				class="kirafont
-					
-						icon-home
-					"
-			></i>
-			<div class="kira-list-item-content">
-				回到首页
-			</div>
-		</a>
-		
-		<a
-			class="kira-list-item mdui-ripple false"
-			href="/archive.html"
-			title="文章归档"
-		>
-			<i
-				class="kirafont
-					
-						icon-container
-					"
-			></i>
-			<div class="kira-list-item-content">
-				文章归档
-			</div>
-		</a>
-		
-		<a
-			class="kira-list-item mdui-ripple false"
-			href="/about.html"
-			title="关于本人"
-		>
-			<i
-				class="kirafont
-					
-						icon-user
-					"
-			></i>
-			<div class="kira-list-item-content">
-				关于本人
-			</div>
-		</a>
-		
-		<a
-			class="kira-list-item mdui-ripple false"
-			href="/friends.html"
-			title="我的朋友"
-		>
-			<i
-				class="kirafont
-					
-						icon-team
-					"
-			></i>
-			<div class="kira-list-item-content">
-				我的朋友
-			</div>
-		</a>
-		
-	</div>
-	<aside id="kira-sidebar">
-		
-			<div class="kira-widget-wrap">
-	<div class="kira-widget kira-social">
-		
-			<a
-				class="mdui-ripple"
-				href="tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1960467155&website=www.oicqzone.com"
-				target="_blank"
-				mdui-tooltip="{content: 'QQ'}"
-				style="color: rgb(49, 174, 255); background-color: rgba(49, 174, 255, .1);"
-			>
-				<i
-					class="kirafont
-					
-						icon-QQ
-					"
-				></i>
-			</a>
-		
-			<a
-				class="mdui-ripple"
-				href="https://space.bilibili.com/27905679"
-				target="_blank"
-				mdui-tooltip="{content: '哔哩哔哩'}"
-				style="color: rgb(231, 106, 141); background-color: rgba(231, 106, 141, .15);"
-			>
-				<i
-					class="kirafont
-					
-						icon-bilibili
-					"
-				></i>
-			</a>
-		
-			<a
-				class="mdui-ripple"
-				href="https://github.com/17779829129/"
-				target="_blank"
-				mdui-tooltip="{content: 'GitHub'}"
-				style="color: rgb(25, 23, 23); background-color: rgba(25, 23, 23, .15);"
-			>
-				<i
-					class="kirafont
-					
-						icon-github
-					"
-				></i>
-			</a>
-		
-			<a
-				class="mdui-ripple"
-				href="https://gitee.com/ch1ny/"
-				target="_blank"
-				mdui-tooltip="{content: 'Gitee'}"
-				style="color: rgb(165, 15, 15); background-color: rgba(165, 15, 15, .15);"
-			>
-				<i
-					class="kirafont
-					
-						icon-gitee
-					"
-				></i>
-			</a>
-		
-	</div>
-</div>
-
-		
-			
-  <div class="kira-widget-wrap">
-    <h3 class="kira-widget-title">分类</h3>
-    <div class="kira-widget">
-      <ul class="category-list">
-        
-        
-
-        
-          <li class="category-list-item">
-            <a class="category-list-link" href="/categories/二次元/">
-              二次元
-            </a>
-            <span class="category-list-count">2</span>
-          </li>
-        
-          <li class="category-list-item">
-            <a class="category-list-link" href="/categories/教学/">
-              教学
-            </a>
-            <span class="category-list-count">3</span>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-		
-			
-	<div class="kira-widget-wrap">
-		<div id="randomtagcloud" class="kira-widget tagcloud kira-rainbow">
-			<a href="/tags/HTML/" style="font-size: 20px;">HTML</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 10px;">博客</a> <a href="/tags/%E5%9B%BE%E7%89%87/" style="font-size: 20px;">图片</a>
-		</div>
-		
-	</div>
-
-
-		
-	</aside>
-	<div class="kira-copyright">
-		&copy; 2023
-		<a href="/">落叶之秋</a>
-		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> &
-		<a href="https://github.com/ch1ny/kira-hexo/" target="_blank">Kira-Hexo</a>
-		<br />
-		
-			<a
-				href="https://beian.miit.gov.cn/"
-				target="_blank"
-			>
-				赣ICP备******号
-			</a>
-		
-		
-	</div>
-</div>
-<div
-	class="kira-sidebar-modal"
-	id="sidebar-modal"
-	onclick="(function(self) {
-		self.classList.remove('show');
-		document.querySelector('.kira-sidebar.show#sidebar').classList.remove('show');
-	})(this)"
-></div>
-			<div class="kira-content">
-				<div id="kira-top-header"></div>
-				<div class="kira-main-content">
-					
-<link rel="stylesheet" href="/css/kira-image.css">
-
-
-<script src="/js/kira-image.js"></script>
-
-<div class="kira-image">
-    <div class="kira-image-modal">
-        <div class="kira-image-header">
-            <div class="kira-image-counter"></div>
-            <div class="kira-image-title"></div>
-            <div class="kira-image-operation">
-                <div class="kira-image-operation-button" id="kira-image-operation-button-zoom">
-                    <i class="kirafont icon-zoom-in"></i>
-                </div>
-                <div class="kira-image-operation-button" id="kira-image-operation-button-close">
-                    <i class="kirafont icon-close"></i>
-                </div>
-            </div>
-        </div>
-        <div class="kira-image-container">
-            <div class="kira-image-prev-button-panel">
-                <div class="kira-image-exchange-button">
-                    <i class="kirafont icon-left"></i>
-                </div>
-            </div>
-            <div class="kira-image-list">
-                <div class="kira-image-prev">
-                    <img />
-                </div>
-                <div class="kira-image-now">
-                    <img />
-                </div>
-                <div class="kira-image-next">
-                    <img />
-                </div>
-            </div>
-            <div class="kira-image-next-button-panel">
-                <div class="kira-image-exchange-button">
-                    <i class="kirafont icon-right"></i>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="kira-post">
-	<article>
-		
-		<div class="kira-post-cover">
-			<img
-				data-src="/images/24.jpg"
-				data-sizes="auto"
-				alt="html基础知识(一)"
-				class="lazyload kira-post-cover-image disabled-kira-image"
-			/>
-			<h1>html基础知识(一)</h1>
-		</div>
-		
-		<div class="kira-post-meta kira-rainbow" style="margin:10px 0!important;">
-			<a><i class="kirafont icon-calendar-fill"></i>2023年06月07日</a>
-			<a><i class="kirafont icon-edit-fill"></i>396 字</a>
-			<a><i class="kirafont icon-time-circle-fill"></i>大概 1 分钟</a>
-		</div>
-		<h1><span id="html基本框架">HTML基本框架</span></h1><p><code>&lt;html&gt;</code><br><code>&lt;head&gt;</code><br><code>&lt;tittle&gt;</code>网页的标题<code>&lt;/tittle&gt;</code><br><code>&lt;/head&gt;</code><br><code>&lt;body&gt;</code><br>网页的主题内容<br><code>&lt;/body&gt;</code><br><code>&lt;/html&gt;</code></p>
-<h1><span id="html标签">HTML标签</span></h1><h2><span id="标题">标题</span></h2><p><code>&lt;h1&gt;</code>一级标题<code>&lt;/h1&gt;</code><br><code>&lt;h2&gt;</code>二级标题<code>&lt;/h2&gt;</code><br>依此类推，一共有6级标题</p>
-<h2><span id="段落">段落</span></h2><p><code>&lt;body&gt;</code><br><code>&lt;p&gt;</code>段落内容<code>&lt;/p&gt;</code><br><code>&lt;/body&gt;</code></p>
-<h2><span id="换行与水平线">换行与水平线</span></h2><p>换行符：<code>&lt;br&gt;</code><br>水平线：<code>&lt;hr&gt;</code></p>
-<h2><span id="文本格式化标签">文本格式化标签</span></h2><p><img src="/images/16.jpg"></p>
-<h1><span id="图片的基本使用">图片的基本使用</span></h1><h2><span id="图片的标签">图片的标签</span></h2><p><code>&lt;img src=&quot;图片的地址&quot; alt=&quot;图片无法加载时显示的内容&quot; tittle=&quot;鼠标悬停时显示&quot; width=&quot; &quot; height=&quot; &quot;&gt;</code><br>如果只设置了width或height中的一个，另一个会自动等比例缩放。</p>
-<h2><span id="路径">路径</span></h2><h2><span id="绝对路径">绝对路径</span></h2><p>指根目录下的绝对位置，可以直接到达目标位置，通常从盘符开始的路径。<br>例如：<br>     盘符开头：<code>D:\example\images\1.jpg</code><br>     完整网络地址：<code>https://example.com/images/1.jpg</code></p>
-<h2><span id="相对路径">相对路径</span></h2><h3><span id="同级与下级">同级与下级</span></h3><p>  同级：<code>&lt;img src=&quot;1.jpg&quot;&gt;</code><br>  下级：<code>&lt;img src=&quot;images/1.jpg&quot;&gt;</code></p>
-<h3><span id="上级">上级</span></h3><p>  <code>&lt;img src=&quot;../images/1.jpg&quot;&gt;</code></p>
-<h1><span id="音频标签">音频标签</span></h1><p> 代码：<code>&lt;audio src=&quot;./music.mp3&quot; controls&gt;&lt;/audio&gt;</code><br> <img src="/images/18.png"></p>
-<h1><span id="视频标签">视频标签</span></h1><p> 代码：<code>&lt;video src=&quot;./video.mp4&quot; controls&gt;&lt;/video&gt;</code><br> <img src="/images/19.png"></p>
-<h1><span id="超链接">超链接</span></h1><p> 代码：<code>&lt;a href=&quot;./目标网页.html&quot;&gt;</code>目标网页<code>&lt;/a&gt;</code><br> <code>&lt;a href=&quot;#&quot;&gt;</code>空连接，不知道到哪里去<code>&lt;/a&gt;</code><br> target属性值：<code>&lt;a href=&quot;./网页地址.html&quot; target=&quot; &quot;&gt;&lt;/a&gt;</code><br> <img src="/images/20.png"></p>
-
-	</article>
-
-	 
-    <div class="kira-post-copyright">
-        <strong>本文作者：</strong>落叶之秋<br>
-        <strong>本文链接：</strong><a href="http://example.com/2023/06/07/html/" title="http:&#x2F;&#x2F;example.com&#x2F;2023&#x2F;06&#x2F;07&#x2F;html&#x2F;" target="_blank" rel="noopener">http:&#x2F;&#x2F;example.com&#x2F;2023&#x2F;06&#x2F;07&#x2F;html&#x2F;</a><br>
-        
-            <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
-        
-    </div>
-
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
   
-	<div class="kira-post-nav">
-		<nav class="post-nav">
-			  
-			<!-- 先找到与当前文字相同的目录 -->
-			      
-			<!-- 在找到当前文章所在的 index -->
-			    
-			<!-- 上一篇文章 -->
-			<div class="old">
-				<span>上一章</span>
-				<a href="/2023/05/30/new/"> hexo+github博客搭建教程</a>
-			</div>
-			       
-			<!-- 下一篇文章 -->
-			<div class="new">
-				<span>下一章</span>
-				<a href="/2023/06/24/2/"> html(二)</a>
-			</div>
-			              
-		</nav>
-	</div>
-	
-	<div class="kira-post-meta kira-rainbow">
-		
-			<a class="kirafont icon-container-fill -link" href="/categories/%E6%95%99%E5%AD%A6/">教学</a>
-		
-		
-			<a class="kirafont icon-tag-fill -none-link" href="/tags/HTML/" rel="tag">HTML</a>
-		
-	</div>
-	
-		<script src="/js/kira-code-copy.js"></script>
-	
-	
-	<div class="kira-post-footer">
-		
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><div class="loading-img"></div><div class="loading-image-dot"></div></div></div><script async="async">var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+setTimeout(function(){preloader.endLoading();}, 3600);
+document.getElementById('loading-box').addEventListener('click',()=> {preloader.endLoading()})</script><link rel="stylesheet" href="/css/loading.css"/><script src="https://cdn.bilicdn.tk/npm/pace-js/pace.min.js"></script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="menus_items"><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><span> 本站</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/"><i class="fa-fw fas fa-house-user"></i><span> 首页</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-box-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><span> 链环</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></li><li><a class="site-page child" href="/sites/"><i class="fa-fw fas fa-star"></i><span> 站长推荐</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><span> 找我</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/comments/"><i class="fa-fw fas fa-comments"></i><span> 留言</span></a></li><li><a class="site-page child" href="/authorqq/"><i class="fa-fw fab fa-qq"></i><span> 博主QQ</span></a></li><li><a class="site-page child" href="/authorwechat/"><i class="fa-fw fab fa-weixin"></i><span> 博主微信</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://github.com/17779829129"><i class="fa-fw fab fa-github"></i><span> github</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><span> 我的</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/cc/"><i class="fa-fw fab fa-creative-commons"></i><span> 协议</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://dimension.ezgx.site/"><i class="fa-fw fas fa-wand-magic-sparkles"></i><span> 主题</span></a></li><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://17779829129.github.io"><i class="fa-fw fas fa-house-user"></i><span> 主页</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/images/24.jpg')"><nav id="nav"><div id="toggle-menu"><a class="site-page"><i class="fas fa-grip-vertical"></i></a></div><span id="blog_name"><a id="site-name" href="/"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img1.tianli0.top/%E9%A6%96%E9%A1%B5.png" width="50" height="50"/><div class="title">落叶之秋の小窝</div><i class="fa-solid fa-house"></i></a></span><div class="mask-name-container"><center id="name-container"><a id="page-name" onclick="btf.scrollToDest(0,500)"></a></center><div class="nav-button" id="nav-totop"><a class="totopbtn"><i class="fas fa-arrow-up"></i><span id="percent" onclick="btf.scrollToDest(0,500)">0</span></a></div></div><div id="menus"><div class="nav-button" id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="nav-button console-button"><a class="link" onclick="heo.showConsole()"><i class="fas fa-circle-plus fa-xl fa-beat"></i></a></div><div class="menus_items"><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><span> 本站</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/"><i class="fa-fw fas fa-house-user"></i><span> 首页</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-box-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><span> 链环</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></li><li><a class="site-page child" href="/sites/"><i class="fa-fw fas fa-star"></i><span> 站长推荐</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><span> 找我</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/comments/"><i class="fa-fw fas fa-comments"></i><span> 留言</span></a></li><li><a class="site-page child" href="/authorqq/"><i class="fa-fw fab fa-qq"></i><span> 博主QQ</span></a></li><li><a class="site-page child" href="/authorwechat/"><i class="fa-fw fab fa-weixin"></i><span> 博主微信</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://github.com/17779829129"><i class="fa-fw fab fa-github"></i><span> github</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><span> 我的</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/cc/"><i class="fa-fw fab fa-creative-commons"></i><span> 协议</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://dimension.ezgx.site/"><i class="fa-fw fas fa-wand-magic-sparkles"></i><span> 主题</span></a></li><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://17779829129.github.io"><i class="fa-fw fas fa-house-user"></i><span> 主页</span></a></li></ul></div></div></div></nav><div id="post-info"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/HTML/">HTML</a></div><h1 class="post-title">html基础知识(一)</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2023-06-07T02:27:29.000Z" title="Created 2023-06-07 10:27:29">2023-06-07</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2023-06-23T00:53:38.375Z" title="Updated 2023-06-23 08:53:38">2023-06-23</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">Word count:</span><span class="word-count">396</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">Reading time:</span><span>1min</span></span></div></div></div></header><div id="console"><div class="close-btn" onclick="heo.hideConsole()"><i class="fas fa-circle-xmark"></i></div><div class="console-webinfo"><div class="console-webinfo-card"><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line fa-bounce"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name"><i class="fas fa-folder-open fa-beat"></i><div class="text">文章总数</div></div><div class="item-count">5</div></div><div class="webinfo-item"><div class="item-name"><i class="fas fa-clock fa-shake"></i><div class="text">建站天数</div></div><div class="item-count" id="runtimeshow" data-publishDate="2022-08-12T16:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name"><i class="fas fa-pen-to-square fa-beat"></i><div class="text">全站字数</div></div><div class="item-count">1.2k</div></div><div class="webinfo-item"><div class="item-name"><i class="fas fa-upload fa-shake"></i><div class="text">最后更新</div></div><div class="item-count" id="last-push-date" data-lastPushDate="2023-06-24T04:48:01.067Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" onclick="toRandomPost()" title="随机文章"><i class="fas fa-shuffle fa-beat" style="font-size: 1rem;"></i></a></div><div class="console-btn-item"><a class="assist-btn" target="_blank" rel="noopener" href="https://travellings.cn/go.html" title="友链接力"><i class="fas fa-bus fa-beat" style="font-size: 1rem;"></i></a></div><div class="console-btn-item"><a class="assist-btn" onclick="btf.scrollToDest(0,500), heo.hideConsole()"><i class="fas fa-arrows-up-to-line fa-beat" style="font-size: 1rem;"></i></a></div></div><div class="console-mask"></div></div><main class="layout" id="content-inner"><div id="post"><div class="dimension-toc"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Catalog</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#HTML%E5%9F%BA%E6%9C%AC%E6%A1%86%E6%9E%B6"><span class="toc-number">1.</span> <span class="toc-text">HTML基本框架</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#HTML%E6%A0%87%E7%AD%BE"><span class="toc-number">2.</span> <span class="toc-text">HTML标签</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%87%E9%A2%98"><span class="toc-number">2.1.</span> <span class="toc-text">标题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%AE%B5%E8%90%BD"><span class="toc-number">2.2.</span> <span class="toc-text">段落</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8D%A2%E8%A1%8C%E4%B8%8E%E6%B0%B4%E5%B9%B3%E7%BA%BF"><span class="toc-number">2.3.</span> <span class="toc-text">换行与水平线</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%87%E6%9C%AC%E6%A0%BC%E5%BC%8F%E5%8C%96%E6%A0%87%E7%AD%BE"><span class="toc-number">2.4.</span> <span class="toc-text">文本格式化标签</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%BE%E7%89%87%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8"><span class="toc-number">3.</span> <span class="toc-text">图片的基本使用</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%BE%E7%89%87%E7%9A%84%E6%A0%87%E7%AD%BE"><span class="toc-number">3.1.</span> <span class="toc-text">图片的标签</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B7%AF%E5%BE%84"><span class="toc-number">3.2.</span> <span class="toc-text">路径</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%9D%E5%AF%B9%E8%B7%AF%E5%BE%84"><span class="toc-number">3.3.</span> <span class="toc-text">绝对路径</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84"><span class="toc-number">3.4.</span> <span class="toc-text">相对路径</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%90%8C%E7%BA%A7%E4%B8%8E%E4%B8%8B%E7%BA%A7"><span class="toc-number">3.4.1.</span> <span class="toc-text">同级与下级</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8A%E7%BA%A7"><span class="toc-number">3.4.2.</span> <span class="toc-text">上级</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%9F%B3%E9%A2%91%E6%A0%87%E7%AD%BE"><span class="toc-number">4.</span> <span class="toc-text">音频标签</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%A7%86%E9%A2%91%E6%A0%87%E7%AD%BE"><span class="toc-number">5.</span> <span class="toc-text">视频标签</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%B6%85%E9%93%BE%E6%8E%A5"><span class="toc-number">6.</span> <span class="toc-text">超链接</span></a></li></ol></div></div></div><article class="post-content" id="article-container"><h1 id="HTML基本框架"><a href="#HTML基本框架" class="headerlink" title="HTML基本框架"></a>HTML基本框架</h1><p><code>&lt;html&gt;</code><br><code>&lt;head&gt;</code><br><code>&lt;tittle&gt;</code>网页的标题<code>&lt;/tittle&gt;</code><br><code>&lt;/head&gt;</code><br><code>&lt;body&gt;</code><br>网页的主题内容<br><code>&lt;/body&gt;</code><br><code>&lt;/html&gt;</code></p>
+<h1 id="HTML标签"><a href="#HTML标签" class="headerlink" title="HTML标签"></a>HTML标签</h1><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p><code>&lt;h1&gt;</code>一级标题<code>&lt;/h1&gt;</code><br><code>&lt;h2&gt;</code>二级标题<code>&lt;/h2&gt;</code><br>依此类推，一共有6级标题</p>
+<h2 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h2><p><code>&lt;body&gt;</code><br><code>&lt;p&gt;</code>段落内容<code>&lt;/p&gt;</code><br><code>&lt;/body&gt;</code></p>
+<h2 id="换行与水平线"><a href="#换行与水平线" class="headerlink" title="换行与水平线"></a>换行与水平线</h2><p>换行符：<code>&lt;br&gt;</code><br>水平线：<code>&lt;hr&gt;</code></p>
+<h2 id="文本格式化标签"><a href="#文本格式化标签" class="headerlink" title="文本格式化标签"></a>文本格式化标签</h2><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/16.jpg" alt=""></p>
+<h1 id="图片的基本使用"><a href="#图片的基本使用" class="headerlink" title="图片的基本使用"></a>图片的基本使用</h1><h2 id="图片的标签"><a href="#图片的标签" class="headerlink" title="图片的标签"></a>图片的标签</h2><p><code>&lt;img src=&quot;图片的地址&quot; alt=&quot;图片无法加载时显示的内容&quot; tittle=&quot;鼠标悬停时显示&quot; width=&quot; &quot; height=&quot; &quot;&gt;</code><br>如果只设置了width或height中的一个，另一个会自动等比例缩放。</p>
+<h2 id="路径"><a href="#路径" class="headerlink" title="路径"></a>路径</h2><h2 id="绝对路径"><a href="#绝对路径" class="headerlink" title="绝对路径"></a>绝对路径</h2><p>指根目录下的绝对位置，可以直接到达目标位置，通常从盘符开始的路径。<br>例如：<br>     盘符开头：<code>D:\example\images\1.jpg</code><br>     完整网络地址：<code>https://example.com/images/1.jpg</code></p>
+<h2 id="相对路径"><a href="#相对路径" class="headerlink" title="相对路径"></a>相对路径</h2><h3 id="同级与下级"><a href="#同级与下级" class="headerlink" title="同级与下级"></a>同级与下级</h3><p>  同级：<code>&lt;img src=&quot;1.jpg&quot;&gt;</code><br>  下级：<code>&lt;img src=&quot;images/1.jpg&quot;&gt;</code></p>
+<h3 id="上级"><a href="#上级" class="headerlink" title="上级"></a>上级</h3><p>  <code>&lt;img src=&quot;../images/1.jpg&quot;&gt;</code></p>
+<h1 id="音频标签"><a href="#音频标签" class="headerlink" title="音频标签"></a>音频标签</h1><p> 代码：<code>&lt;audio src=&quot;./music.mp3&quot; controls&gt;&lt;/audio&gt;</code><br> <img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/18.png" alt=""></p>
+<h1 id="视频标签"><a href="#视频标签" class="headerlink" title="视频标签"></a>视频标签</h1><p> 代码：<code>&lt;video src=&quot;./video.mp4&quot; controls&gt;&lt;/video&gt;</code><br> <img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/19.png" alt=""></p>
+<h1 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h1><p> 代码：<code>&lt;a href=&quot;./目标网页.html&quot;&gt;</code>目标网页<code>&lt;/a&gt;</code><br> <code>&lt;a href=&quot;#&quot;&gt;</code>空连接，不知道到哪里去<code>&lt;/a&gt;</code><br> target属性值：<code>&lt;a href=&quot;./网页地址.html&quot; target=&quot; &quot;&gt;&lt;/a&gt;</code><br> <img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/20.png" alt=""></p>
+</article><div class="post-copyright"><div class="post-copyright__title"><span class="post-copyright-info"><h>html基础知识(一)</h></span></div><div class="post-copyright__type"><span class="post-copyright-info"><a href="http://example.com/2023/06/07/html/">http://example.com/2023/06/07/html/</a></span></div><div class="post-copyright-m"><div class="post-copyright-m-info"><div class="post-copyright-a" style="display: inline-block;width: 120px"><h>作者</h><div class="post-copyright-cc-info"><h>落叶之秋</h></div></div><div class="post-copyright-c" style="display: inline-block;width: 120px"><h>发布于</h><div class="post-copyright-cc-info"><h>2023-06-07</h></div></div><div class="post-copyright-u" style="display: inline-block;width: 120px"><h>更新于</h><div class="post-copyright-cc-info"><h>2023-06-23</h></div></div><div class="post-copyright-c" style="display: inline-block;width: 120px"><h>许可协议</h><div class="post-copyright-cc-info"><a class="icon" rel="noopener" target="_blank" title="Creative Commons" href="/cc/"><i class="fab fa-creative-commons"></i></a><a rel="noopener" target="_blank" title="CC BY 4.0" href="/cc/">CC BY 4.0</a></div></div></div></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/HTML/">HTML</a></div><div class="post_share"><div class="social-share" data-image="/images/24.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.bilicdn.tk/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.bilicdn.tk/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2023/06/20/1/"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/22.jpg" onerror="onerror=null;src='https://ezgx.site/img/404.png'" alt="cover of previous post"><div class="pagination-info"><div class="label">Previous Post</div><div class="prev_info">随便发点</div></div></a></div><div class="next-post pull-right"><a href="/2023/05/30/new/"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/25.jpg" onerror="onerror=null;src='https://ezgx.site/img/404.png'" alt="cover of next post"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">hexo+github博客搭建教程</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> Comment</span></div><div id="comment-switch"><span class="first-comment">Twikoo</span><span class="switch-btn"></span><span class="second-comment">Waline</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div><div><div id="waline-wrap"></div></div></div></div></div></main><footer id="footer" style="background: transparent"><div id="footer_deal"><a class="deal_link" target="_blank" rel="noopener external nofollow" href="https://17779829129.github.io" title="个人主页"><i class="fa-solid fa-compass"></i></a><a class="deal_link" target="_blank" rel="noopener external nofollow" href="https://res.abeim.cn/api/qq/?qq=1960467155" title="联系QQ"><i class="fa-brands fa-qq"></i></a><a class="deal_link" href="/authorwechat/" title="联系微信"><i class="fa-brands fa-weixin"></i></a><img class="footer_mini_logo entered loading" style="border-radius:50%" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/avatar.jpg" onclick="btf.scrollToDest(0,500)" title="返回顶部"/><a class="deal_link" target="_blank" rel="noopener external nofollow" href="https://github.com/17779829129" title="Github"><i class="fa-brands fa-github"></i></a><a class="deal_link" href="/comments/" title="留言"><i class="fa-solid fa-comment"></i></a><a class="deal_link" target="_blank" rel="noopener external nofollow" href="mailto:1960467155@qq.com" title="发送邮件"><i class="fa-solid fa-envelope"></i></a></div><div id="Jay-footer"><div class="footer-group"><h3 class="footer-title">直达</h3><div class="footer-links"><a class="footer-item" target="_blank" rel="noopener" href="https://17779829129.github.io">个人主页</a><a class="footer-item" href="/about/">关于</a><a class="footer-item" href="/link/">友链</a><a class="footer-item" href="javascript:toRandomPost()">随机文章</a></div></div><div class="footer-group"><h3 class="footer-title">标签</h3><div class="footer-links"><a class="footer-item" href="/tags/HTML/">捣鼓前端</a><a class="footer-item" href="/categories/%E4%BA%8C%E6%AC%A1%E5%85%83/">二次元</a><a class="footer-item" href="/categories/%E6%95%99%E5%AD%A6/">教学</a><a class="footer-item" href="/categories/%E7%94%9F%E6%B4%BB/">📙生活记录</a></div></div><div class="footer-group"><h3 class="footer-title">我的</h3><div class="footer-links"><a class="footer-item" href="/about/">关于</a><a class="footer-item" href="/archives/">归档</a><a class="footer-item" href="/tags/">标签</a><a class="footer-item" href="/categories/">分类</a></div></div><div class="footer-group"><h3 class="footer-title">协议</h3><div class="footer-links"><a class="footer-item" href="/cc/">版权协议</a><a class="footer-item" target="_blank" rel="noopener" href="https://github.com/Ezgx/hexo-theme-dimension/blob/main/LICENSE">主题协议</a><a class="footer-item" href="javascript:void(0)">占位</a><a class="footer-item" href="javascript:void(0)">占位</a></div></div></div><div id="footer-banner"><div class="footer-banner-links"><div class="footer-banner-left"><div class="footer-banner-left"><div id="footer-banner-tips">2023 ©Echocbx</div></div></div><div class="footer-banner-right"><a class="footer-banner-link" target="_blank" rel="noopener" href="https://hexo.io/zh-cn/" title="Hexo">框架：Hexo</a><a class="footer-banner-link">|</a><a class="footer-banner-link" href="/2023/dimension" title="theme">主题：dimension</a><a class="footer-banner-link">|</a><a class="footer-banner-link" href="/about/" title="about">关于</a><a class="footer-banner-link">|</a><a class="footer-banner-link cc" href="/cc/" title="cc协议"><i class="fab fa-creative-commons"></i><span>协议。</span></a></div></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading the Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.bilicdn.tk/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="https://cdn.bilicdn.tk/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    tex: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"]],
+      tags: 'ams'
+    },
+    chtml: {
+      scale: 1.1
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, ''],
+        insertScript: [200, () => {
+          document.querySelectorAll('mjx-container').forEach(node => {
+            if (node.hasAttribute('display')) {
+              btf.wrap(node, 'div', { class: 'mathjax-overflow' })
+            } else {
+              btf.wrap(node, 'span', { class: 'mathjax-overflow' })
+            }
+          });
+        }, '', false]
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://cdn.bilicdn.tk/npm/mathjax/es5/tex-mml-chtml.min.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typeset()
+}</script><script>(()=>{
+  const init = () => {
+    twikoo.init(Object.assign({
+      el: '#twikoo-wrap',
+      envId: '',
+      region: 'ap-shanghai',
+      onCommentLoaded: function () {
+        btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      }
+    }, null))
+  }
 
-		
-	</div>
-	
-</div>
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: '',
+      region: 'ap-shanghai',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(function (res) {
+      countELement.innerText = res[0].count
+    }).catch(function (err) {
+      console.error(err);
+    });
+  }
 
-				</div>
-			</div>
-			<div class="kira-right-column">
-	<a onclick="document.querySelector('#kira-top-header').scrollIntoView({behavior: 'smooth'});" class="kira-backtotop" aria-label="回到顶部" title="回到顶部">
-		<button class="mdui-fab mdui-ripple">
-			<i class="kirafont icon-caret-up"></i>
-		</button>
-	</a>
-</div>
+  const runFn = () => {
+    init()
+    
+  }
 
-		</div>
-	</body>
-</html>
+  const loadTwikoo = () => {
+    if (typeof twikoo === 'object') {
+      setTimeout(runFn,0)
+      return
+    } 
+    getScript('https://cdn.bilicdn.tk/npm/twikoo/dist/twikoo.all.min.js').then(runFn)
+  }
+
+  if ('Twikoo' === 'Twikoo' || !false) {
+    if (false) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo()
+  } else {
+    window.loadOtherComment = () => {
+      loadTwikoo()
+    }
+  }
+})()</script><script>function loadWaline () {
+  function insertCSS () {
+    const link = document.createElement("link")
+    link.rel = "stylesheet"
+    link.href = "https://cdn.bilicdn.tk/npm/@waline/client/dist/waline.min.css"
+    document.head.appendChild(link)
+  }
+
+  function initWaline () {
+    const waline = Waline.init(Object.assign({
+      el: '#waline-wrap',
+      serverURL: '',
+      pageview: false,
+      dark: 'html[data-theme="dark"]',
+      path: window.location.pathname,
+      comment: false,
+    }, null))
+  }
+
+  if (typeof Waline === 'function') initWaline()
+  else {
+    insertCSS()
+    getScript('https://cdn.bilicdn.tk/npm/@waline/client/dist/waline.min.js').then(initWaline)
+  }
+}
+
+if ('Twikoo' === 'Waline' || !false) {
+  if (false) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
+  else setTimeout(loadWaline, 0)
+} else {
+  function loadOtherComment () {
+    loadWaline()
+  }
+}</script></div><script src="https://cdn.bilicdn.tk/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+POWERMODE.mobile = true;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-show-text" src="https://cdn.bilicdn.tk/npm/butterfly-extsrc/dist/click-show-text.min.js" data-mobile="true" data-text="欢迎来到,落叶之秋的,博客" data-fontsize="16px" data-random="false" async="async"></script><script src="https://cdn.bilicdn.tk/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"]):not([href="hometop.js"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
+  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+
+  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script></div><span id="fps"></span></body></html>
