@@ -1,11 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>随便发点</title>
+    <url>/2023/06/20/1/</url>
+    <content><![CDATA[<p><img src="/images/12.jpg" alt=""><br><img src="/images/13.jpg" alt=""><br><img src="/images/14.jpg" alt=""><br><img src="/images/15.jpg" alt=""><br><img src="/images/17.jpg" alt=""><br><img src="/images/21.jpg" alt=""></p>
+]]></content>
+      <categories>
+        <category>二次元</category>
+      </categories>
+      <tags>
+        <tag>图片</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>html(二)</title>
     <url>/2023/06/24/2/</url>
-    <content><![CDATA[<h1 id="列表的应用场景"><a href="#列表的应用场景" class="headerlink" title="列表的应用场景"></a>列表的应用场景</h1><h2 id="1-无序列表"><a href="#1-无序列表" class="headerlink" title="1.无序列表"></a>1.无序列表</h2><p>代码：<br><code>&lt;body&gt;</code><br>    <code>&lt;ul&gt;</code><br>    <code>&lt;li&gt;</code>列表内容<code>&lt;/li&gt;</code><br>    <code>&lt;/ul&gt;</code><br><code>&lt;/body&gt;</code><br>场景：在网页中表示一组无顺序之分的列表，如：新闻列表<br><img src="/images/27.png" alt=""><br>显示特点：列表的每一项前默认显示圆点标识<br>注意点： ul标签只能包含li标签<br>        li标签可以包含任意内容</p>
-<h2 id="2-有序列表"><a href="#2-有序列表" class="headerlink" title="2.有序列表"></a>2.有序列表</h2><p>代码：<br><code>&lt;body&gt;</code><br>    <code>&lt;ol&gt;</code><br>    <code>&lt;li&gt;</code>列表内容<code>&lt;/li&gt;</code><br>    <code>&lt;/ol&gt;</code><br><code>&lt;/body&gt;</code><br>场景：在网页中表示一组有顺序之分的列表，如：排行榜<br><img src="/images/28.png" alt=""><br>显示特点：列表的每一项前默认显示序号标识<br>注意点：<br>       ol标签只允许包含li标签<br>       li标签可以包含任意内容</p>
-<h2 id="3-自定义列表"><a href="#3-自定义列表" class="headerlink" title="3.自定义列表"></a>3.自定义列表</h2><p>代码：<br><code>&lt;body&gt;</code><br>     <code>&lt;dl&gt;</code><br>           <code>&lt;dt&gt;</code>标签内容<code>&lt;/dt&gt;</code><br>           <code>&lt;dd&gt;</code>标签内容<code>&lt;/dd&gt;</code><br>     <code>&lt;/dl&gt;</code><br><code>&lt;/body&gt;</code><br>场景：在网页的底部导航中通常会使用自定义列表实现。<br><img src="/images/29.png" alt=""><br>显示特点：dd标签会默认显示缩进效果<br>注意点：<br>       dl标签只允许包含dt/dd标签<br>       dt/dd标签可以包含任意内容</p>
+    <content><![CDATA[<h1 id="列表的应用场景"><a href="#列表的应用场景" class="headerlink" title="列表的应用场景"></a>列表的应用场景</h1><h2 id="1-无序列表"><a href="#1-无序列表" class="headerlink" title="1.无序列表"></a>1.无序列表</h2><p>代码：</p>
+<pre><code>&lt;body&gt;
+    &lt;ul&gt;
+    &lt;li&gt;列表内容&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/body&gt;
+</code></pre><p>场景：在网页中表示一组无顺序之分的列表，如：新闻列表<br><img src="/images/27.png" alt=""><br>显示特点：列表的每一项前默认显示圆点标识<br>注意点： ul标签只能包含li标签<br>        li标签可以包含任意内容</p>
+<h2 id="2-有序列表"><a href="#2-有序列表" class="headerlink" title="2.有序列表"></a>2.有序列表</h2><p>代码：</p>
+<pre><code>&lt;body&gt;
+     &lt;ol&gt;
+     &lt;li&gt;列表内容&lt;/li&gt;
+     &lt;/ol&gt;
+&lt;/body&gt;
+</code></pre><p>场景：在网页中表示一组有顺序之分的列表，如：排行榜<br><img src="/images/28.png" alt=""><br>显示特点：列表的每一项前默认显示序号标识<br>注意点：<br>       ol标签只允许包含li标签<br>       li标签可以包含任意内容</p>
+<h2 id="3-自定义列表"><a href="#3-自定义列表" class="headerlink" title="3.自定义列表"></a>3.自定义列表</h2><p>代码：</p>
+<pre><code>&lt;body&gt;
+     &lt;dl&gt;
+           &lt;dt&gt;标签内容&lt;/dt&gt;
+           &lt;dd&gt;标签内容&lt;/dd&gt;
+     &lt;/dl&gt;
+&lt;/body&gt;
+</code></pre><p>场景：在网页的底部导航中通常会使用自定义列表实现。<br><img src="/images/29.png" alt=""><br>显示特点：dd标签会默认显示缩进效果<br>注意点：<br>       dl标签只允许包含dt/dd标签<br>       dt/dd标签可以包含任意内容</p>
 ]]></content>
       <categories>
         <category>教学</category>
@@ -15,9 +46,45 @@
       </tags>
   </entry>
   <entry>
-    <title>随便发点</title>
-    <url>/2023/06/20/1/</url>
-    <content><![CDATA[<p><img src="/images/12.jpg" alt=""><br><img src="/images/13.jpg" alt=""><br><img src="/images/14.jpg" alt=""><br><img src="/images/15.jpg" alt=""><br><img src="/images/17.jpg" alt=""><br><img src="/images/21.jpg" alt=""></p>
+    <title>html基础知识(一)</title>
+    <url>/2023/06/07/html/</url>
+    <content><![CDATA[<h1 id="HTML基本框架"><a href="#HTML基本框架" class="headerlink" title="HTML基本框架"></a>HTML基本框架</h1><p>代码：</p>
+<pre><code>&lt;html&gt;
+&lt;head&gt;
+&lt;tittle&gt;网页的标题&lt;/tittle&gt;
+&lt;/head&gt;
+&lt;body&gt;
+网页的主题内容
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre><h1 id="HTML标签"><a href="#HTML标签" class="headerlink" title="HTML标签"></a>HTML标签</h1><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><pre><code>&lt;h1&gt;一级标题&lt;/h1&gt;
+&lt;h2&gt;二级标题&lt;/h2&gt;
+</code></pre><p>依此类推，一共有6级标题</p>
+<h2 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h2><pre><code>&lt;body&gt;
+&lt;p&gt;段落内容&lt;/p&gt;
+&lt;/body&gt;
+</code></pre><h2 id="换行与水平线"><a href="#换行与水平线" class="headerlink" title="换行与水平线"></a>换行与水平线</h2><p>换行符：<code>&lt;br&gt;</code><br>水平线：<code>&lt;hr&gt;</code></p>
+<h2 id="文本格式化标签"><a href="#文本格式化标签" class="headerlink" title="文本格式化标签"></a>文本格式化标签</h2><p><img src="/images/16.jpg" alt=""></p>
+<h1 id="图片的基本使用"><a href="#图片的基本使用" class="headerlink" title="图片的基本使用"></a>图片的基本使用</h1><h2 id="图片的标签"><a href="#图片的标签" class="headerlink" title="图片的标签"></a>图片的标签</h2><pre><code>&lt;img src=&quot;图片的地址&quot; alt=&quot;图片无法加载时显示的内容&quot; tittle=&quot;鼠标悬停时显示&quot; width=&quot; &quot; height=&quot; &quot;&gt;
+</code></pre><p>如果只设置了width或height中的一个，另一个会自动等比例缩放。</p>
+<h2 id="路径"><a href="#路径" class="headerlink" title="路径"></a>路径</h2><h2 id="绝对路径"><a href="#绝对路径" class="headerlink" title="绝对路径"></a>绝对路径</h2><p>指根目录下的绝对位置，可以直接到达目标位置，通常从盘符开始的路径。<br>例如：<br>     盘符开头：<code>D:\example\images\1.jpg</code><br>     完整网络地址：<code>https://example.com/images/1.jpg</code></p>
+<h2 id="相对路径"><a href="#相对路径" class="headerlink" title="相对路径"></a>相对路径</h2><h3 id="同级与下级"><a href="#同级与下级" class="headerlink" title="同级与下级"></a>同级与下级</h3><p>  同级：<code>&lt;img src=&quot;1.jpg&quot;&gt;</code><br>  下级：<code>&lt;img src=&quot;images/1.jpg&quot;&gt;</code></p>
+<h3 id="上级"><a href="#上级" class="headerlink" title="上级"></a>上级</h3><p>  <code>&lt;img src=&quot;../images/1.jpg&quot;&gt;</code></p>
+<h1 id="音频标签"><a href="#音频标签" class="headerlink" title="音频标签"></a>音频标签</h1><p> 代码：<code>&lt;audio src=&quot;./music.mp3&quot; controls&gt;&lt;/audio&gt;</code><br> <img src="/images/18.png" alt=""></p>
+<h1 id="视频标签"><a href="#视频标签" class="headerlink" title="视频标签"></a>视频标签</h1><p> 代码：<code>&lt;video src=&quot;./video.mp4&quot; controls&gt;&lt;/video&gt;</code><br> <img src="/images/19.png" alt=""></p>
+<h1 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h1><p> 代码：<code>&lt;a href=&quot;./目标网页.html&quot;&gt;</code>目标网页<code>&lt;/a&gt;</code><br> <code>&lt;a href=&quot;#&quot;&gt;</code>空连接，不知道到哪里去<code>&lt;/a&gt;</code><br> target属性值：<code>&lt;a href=&quot;./网页地址.html&quot; target=&quot; &quot;&gt;&lt;/a&gt;</code><br> <img src="/images/20.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>教学</category>
+      </categories>
+      <tags>
+        <tag>HTML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>绫华！</title>
+    <url>/2023/05/27/hello-world/</url>
+    <content><![CDATA[<p><img src="/images/1.jpg" alt=""></p>
 ]]></content>
       <categories>
         <category>二次元</category>
@@ -52,41 +119,6 @@
       </categories>
       <tags>
         <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>绫华！</title>
-    <url>/2023/05/27/hello-world/</url>
-    <content><![CDATA[<p><img src="/images/1.jpg" alt=""></p>
-]]></content>
-      <categories>
-        <category>二次元</category>
-      </categories>
-      <tags>
-        <tag>图片</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>html基础知识(一)</title>
-    <url>/2023/06/07/html/</url>
-    <content><![CDATA[<h1 id="HTML基本框架"><a href="#HTML基本框架" class="headerlink" title="HTML基本框架"></a>HTML基本框架</h1><p><code>&lt;html&gt;</code><br><code>&lt;head&gt;</code><br><code>&lt;tittle&gt;</code>网页的标题<code>&lt;/tittle&gt;</code><br><code>&lt;/head&gt;</code><br><code>&lt;body&gt;</code><br>网页的主题内容<br><code>&lt;/body&gt;</code><br><code>&lt;/html&gt;</code></p>
-<h1 id="HTML标签"><a href="#HTML标签" class="headerlink" title="HTML标签"></a>HTML标签</h1><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p><code>&lt;h1&gt;</code>一级标题<code>&lt;/h1&gt;</code><br><code>&lt;h2&gt;</code>二级标题<code>&lt;/h2&gt;</code><br>依此类推，一共有6级标题</p>
-<h2 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h2><p><code>&lt;body&gt;</code><br><code>&lt;p&gt;</code>段落内容<code>&lt;/p&gt;</code><br><code>&lt;/body&gt;</code></p>
-<h2 id="换行与水平线"><a href="#换行与水平线" class="headerlink" title="换行与水平线"></a>换行与水平线</h2><p>换行符：<code>&lt;br&gt;</code><br>水平线：<code>&lt;hr&gt;</code></p>
-<h2 id="文本格式化标签"><a href="#文本格式化标签" class="headerlink" title="文本格式化标签"></a>文本格式化标签</h2><p><img src="/images/16.jpg" alt=""></p>
-<h1 id="图片的基本使用"><a href="#图片的基本使用" class="headerlink" title="图片的基本使用"></a>图片的基本使用</h1><h2 id="图片的标签"><a href="#图片的标签" class="headerlink" title="图片的标签"></a>图片的标签</h2><p><code>&lt;img src=&quot;图片的地址&quot; alt=&quot;图片无法加载时显示的内容&quot; tittle=&quot;鼠标悬停时显示&quot; width=&quot; &quot; height=&quot; &quot;&gt;</code><br>如果只设置了width或height中的一个，另一个会自动等比例缩放。</p>
-<h2 id="路径"><a href="#路径" class="headerlink" title="路径"></a>路径</h2><h2 id="绝对路径"><a href="#绝对路径" class="headerlink" title="绝对路径"></a>绝对路径</h2><p>指根目录下的绝对位置，可以直接到达目标位置，通常从盘符开始的路径。<br>例如：<br>     盘符开头：<code>D:\example\images\1.jpg</code><br>     完整网络地址：<code>https://example.com/images/1.jpg</code></p>
-<h2 id="相对路径"><a href="#相对路径" class="headerlink" title="相对路径"></a>相对路径</h2><h3 id="同级与下级"><a href="#同级与下级" class="headerlink" title="同级与下级"></a>同级与下级</h3><p>  同级：<code>&lt;img src=&quot;1.jpg&quot;&gt;</code><br>  下级：<code>&lt;img src=&quot;images/1.jpg&quot;&gt;</code></p>
-<h3 id="上级"><a href="#上级" class="headerlink" title="上级"></a>上级</h3><p>  <code>&lt;img src=&quot;../images/1.jpg&quot;&gt;</code></p>
-<h1 id="音频标签"><a href="#音频标签" class="headerlink" title="音频标签"></a>音频标签</h1><p> 代码：<code>&lt;audio src=&quot;./music.mp3&quot; controls&gt;&lt;/audio&gt;</code><br> <img src="/images/18.png" alt=""></p>
-<h1 id="视频标签"><a href="#视频标签" class="headerlink" title="视频标签"></a>视频标签</h1><p> 代码：<code>&lt;video src=&quot;./video.mp4&quot; controls&gt;&lt;/video&gt;</code><br> <img src="/images/19.png" alt=""></p>
-<h1 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h1><p> 代码：<code>&lt;a href=&quot;./目标网页.html&quot;&gt;</code>目标网页<code>&lt;/a&gt;</code><br> <code>&lt;a href=&quot;#&quot;&gt;</code>空连接，不知道到哪里去<code>&lt;/a&gt;</code><br> target属性值：<code>&lt;a href=&quot;./网页地址.html&quot; target=&quot; &quot;&gt;&lt;/a&gt;</code><br> <img src="/images/20.png" alt=""></p>
-]]></content>
-      <categories>
-        <category>教学</category>
-      </categories>
-      <tags>
-        <tag>HTML</tag>
       </tags>
   </entry>
 </search>
