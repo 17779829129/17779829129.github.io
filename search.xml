@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>随便发点</title>
-    <url>/2023/06/20/1/</url>
-    <content><![CDATA[<p><img src="/images/12.jpg" alt=""><br><img src="/images/13.jpg" alt=""><br><img src="/images/14.jpg" alt=""><br><img src="/images/15.jpg" alt=""><br><img src="/images/17.jpg" alt=""><br><img src="/images/21.jpg" alt=""></p>
-]]></content>
-      <categories>
-        <category>二次元</category>
-      </categories>
-      <tags>
-        <tag>图片</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>html(二)</title>
     <url>/2023/06/24/2/</url>
     <content><![CDATA[<h1 id="列表的应用场景"><a href="#列表的应用场景" class="headerlink" title="列表的应用场景"></a>列表的应用场景</h1><h2 id="1-无序列表"><a href="#1-无序列表" class="headerlink" title="1.无序列表"></a>1.无序列表</h2><p>代码：</p>
@@ -124,6 +112,18 @@
 ]]></content>
       <categories>
         <category>生活</category>
+      </categories>
+      <tags>
+        <tag>图片</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>随便发点</title>
+    <url>/2023/06/20/1/</url>
+    <content><![CDATA[<p><img src="/images/12.jpg" alt=""><br><img src="/images/13.jpg" alt=""><br><img src="/images/14.jpg" alt=""><br><img src="/images/15.jpg" alt=""><br><img src="/images/17.jpg" alt=""><br><img src="/images/21.jpg" alt=""></p>
+]]></content>
+      <categories>
+        <category>二次元</category>
       </categories>
       <tags>
         <tag>图片</tag>
@@ -325,7 +325,30 @@
 </table>
 
 <p>占位符：placeholder,用于提示用户输入。<br>代码:<code>&lt;input type=&quot; &quot; placeholder=&quot; &quot;&gt;</code></p>
-]]></content>
+<h3 id="input单选框"><a href="#input单选框" class="headerlink" title="input单选框"></a>input单选框</h3><p>场景：在网页中显示多选一的单选表单控件</p>
+<p>type属性值：radio。</p>
+<table border="1">
+    <tr>
+       <th>属性名</th>
+       <th>说明</th>
+    </tr>
+    <tr>
+       <th>name</th>
+       <th>分组，有相同name属性值的单选框为一组，一组中同时只能有一个被选中</th>
+    </tr>
+    <tr>
+       <th>checked</th>
+       <th>默认选中</th>
+    </tr>
+</table>
+
+<p>代码：<code>&lt;input type=&quot;radio&quot; name=&quot; &quot; checked（添加后会默认勾选该选项）&gt;</code></p>
+<h3 id="input其他属性值说明"><a href="#input其他属性值说明" class="headerlink" title="input其他属性值说明"></a>input其他属性值说明</h3><h4 id="多文件选择"><a href="#多文件选择" class="headerlink" title="多文件选择"></a>多文件选择</h4><p>代码：<code>&lt;input type=&quot;file&quot; multiple&gt;</code></p>
+<h4 id="按钮"><a href="#按钮" class="headerlink" title="按钮"></a>按钮</h4><p>submit:<code>&lt;input submit value=&quot; &quot;&gt;</code><br>reset: <code>&lt;input reset value=&quot; &quot;&gt;</code><br>button: </p>
+<pre><code>&lt;button type=&quot;submit&quot;&gt;提交按钮&lt;/button&gt;
+&lt;button type=&quot;reset&quot;&gt;重置按钮&lt;/button&gt;
+&lt;button type=&quot;button&quot;&gt;普通按钮&lt;/button&gt;
+</code></pre>]]></content>
       <categories>
         <category>教学</category>
       </categories>
@@ -370,6 +393,18 @@
       </tags>
   </entry>
   <entry>
+    <title>绫华！</title>
+    <url>/2023/05/27/hello-world/</url>
+    <content><![CDATA[<p><img src="/images/1.jpg" alt=""></p>
+]]></content>
+      <categories>
+        <category>二次元</category>
+      </categories>
+      <tags>
+        <tag>图片</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo+github博客搭建教程</title>
     <url>/2023/05/30/new/</url>
     <content><![CDATA[<h1 id="一、配置环境"><a href="#一、配置环境" class="headerlink" title="一、配置环境"></a><strong>一、配置环境</strong></h1><p>Git(<a href="https://git-scm.com/">https://git-scm.com/</a>)</p>
@@ -395,18 +430,6 @@
       </categories>
       <tags>
         <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>绫华！</title>
-    <url>/2023/05/27/hello-world/</url>
-    <content><![CDATA[<p><img src="/images/1.jpg" alt=""></p>
-]]></content>
-      <categories>
-        <category>二次元</category>
-      </categories>
-      <tags>
-        <tag>图片</tag>
       </tags>
   </entry>
 </search>
