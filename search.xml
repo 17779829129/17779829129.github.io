@@ -13,111 +13,6 @@
       </tags>
   </entry>
   <entry>
-    <title>html(二)</title>
-    <url>/2023/06/24/2/</url>
-    <content><![CDATA[<h1 id="列表的应用场景"><a href="#列表的应用场景" class="headerlink" title="列表的应用场景"></a>列表的应用场景</h1><h2 id="1-无序列表"><a href="#1-无序列表" class="headerlink" title="1.无序列表"></a>1.无序列表</h2><p>代码：</p>
-<pre><code>&lt;body&gt;
-    &lt;ul&gt;
-    &lt;li&gt;列表内容&lt;/li&gt;
-    &lt;/ul&gt;
-&lt;/body&gt;
-</code></pre><p>场景：在网页中表示一组无顺序之分的列表，如：新闻列表</p>
-<table border="1">
-<caption>标签组成</caption>
-     <tr>
-        <th>标签名</th>
-        <th>说明</th>
-    </tr>
-    <tr>
-        <th>ul</th>
-        <th>表示无序列表的整体，用于包裹li标签</th>
-    </tr>
-    <tr>
-        <th>li </th>
-        <th>表示无序标签的每一项，用于包含每一行内容</th>
-    </tr>
-</table> 
-
-<p>显示特点：列表的每一项前默认显示圆点标识<br>注意点：</p>
-<ul>
- <li>ul标签只能包含li标签</li>
- <li>li标签可以包含任意内容</li>
-</ul>
-
-<h2 id="2-有序列表"><a href="#2-有序列表" class="headerlink" title="2.有序列表"></a>2.有序列表</h2><p>代码：</p>
-<pre><code>&lt;body&gt;
-     &lt;ol&gt;
-     &lt;li&gt;列表内容&lt;/li&gt;
-     &lt;/ol&gt;
-&lt;/body&gt;
-</code></pre><p>场景：在网页中表示一组有顺序之分的列表，如：排行榜</p>
-<table border="1">
-<caption>标签组成</caption>
-     <tr>
-        <th>标签名</th>
-        <th>说明</th>
-    </tr>
-    <tr>
-        <th>ol</th>
-        <th>表示有序列表的整体，用于包裹li标签</th>
-    </tr>
-    <tr>
-        <th>li </th>
-        <th>表示有序标签的每一项，用于包含每一行内容</th>
-    </tr>
-</table> 
-
-<p>显示特点：列表的每一项前默认显示序号标识<br>注意点：</p>
-<ul>     
-    <li>ol标签只允许包含li标签</li>
-    <li>li标签可以包含任意内容</li>
-</ul>
-
-<h2 id="3-自定义列表"><a href="#3-自定义列表" class="headerlink" title="3.自定义列表"></a>3.自定义列表</h2><p>代码：</p>
-<pre><code>&lt;body&gt;
-     &lt;dl&gt;
-           &lt;dt&gt;标签内容&lt;/dt&gt;
-           &lt;dd&gt;标签内容&lt;/dd&gt;
-     &lt;/dl&gt;
-&lt;/body&gt;
-</code></pre><p>场景：在网页的底部导航中通常会使用自定义列表实现。</p>
-<table border="1">
-<caption>标签组成</caption>
-     <tr>
-        <th>标签名</th>
-        <th>说明</th>
-    </tr>
-    <tr>
-        <th>dl</th>
-        <th>表示自定义列表整体，用于包裹dt/dd标签</th>
-    </tr>
-    <tr>
-        <th>dl</th>
-        <th>表示自定义列表的主题</th>
-    </tr>
-    <tr>
-        <th>dd</th>
-        <th>表示自定义列表的针对主题的每一项内容</th>
-    </tr>
-</table>  
-
-<p>显示特点：dd标签会默认显示缩进效果<br>注意点：</p>
-<ul>
-     <li>dl标签只允许包含dt/dd标签</li>
-     <li>dt/dd标签可以包含任意内容</li>
-</ul>
-
-
-
-]]></content>
-      <categories>
-        <category>教学</category>
-      </categories>
-      <tags>
-        <tag>HTML</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>html(三)</title>
     <url>/2023/06/27/4/</url>
     <content><![CDATA[<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><table border="1">
@@ -282,15 +177,63 @@
       </tags>
   </entry>
   <entry>
-    <title>随便发点</title>
-    <url>/2023/06/20/1/</url>
-    <content><![CDATA[<p><img src="/images/12.jpg" alt=""><br><img src="/images/13.jpg" alt=""><br><img src="/images/14.jpg" alt=""><br><img src="/images/15.jpg" alt=""><br><img src="/images/17.jpg" alt=""><br><img src="/images/21.jpg" alt=""></p>
+    <title>绫华！</title>
+    <url>/2023/05/27/hello-world/</url>
+    <content><![CDATA[<p><img src="/images/1.jpg" alt=""></p>
 ]]></content>
       <categories>
         <category>二次元</category>
       </categories>
       <tags>
         <tag>图片</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>5</title>
+    <url>/2023/06/30/5/</url>
+    <content><![CDATA[<h1 id="表单"><a href="#表单" class="headerlink" title="表单"></a>表单</h1><h2 id="input标签"><a href="#input标签" class="headerlink" title="input标签"></a>input标签</h2><p>代码:<code>&lt;input type=&quot; &quot;&gt;</code></p>
+<table border="1">
+    <tr>
+       <th>type</th>
+       <th>说明</th>
+    </tr>
+    <tr>
+       <th>text</th>
+       <th>文本框，用于输入单行文本</th>
+    </tr>
+    <tr>
+       <th>password</th>
+       <th>密码框，用于输入密码</th>
+    </tr>
+    <tr>
+       <th>radio</th>
+       <th>单选框,多选一</th>
+    <tr>
+       <th>checkbox</th>
+       <th>多选框，多选多</th>
+    </tr>
+    <tr>
+       <th>file</th>
+       <th>文件选择，用于上传文件</th>
+    </tr>
+    <tr>
+       <th>submit</th>
+       <th>提交按钮，用于提交</th>
+    </tr>
+    <tr>
+       <th>reset</th>
+       <th>重置按钮，用于重置</th>
+    </tr>
+    <tr>
+       <th>button</th>
+       <th>普通按钮，无特殊功能,之后配合js添加功能</th>
+    </tr>
+</table>
+
+<p>占位符：placeholder,用于提示用户输入。<br>代码:<code>&lt;input type=&quot; &quot; placeholder=&quot; &quot;&gt;</code></p>
+]]></content>
+      <tags>
+        <tag>HTML</tag>
       </tags>
   </entry>
   <entry>
@@ -330,9 +273,9 @@
       </tags>
   </entry>
   <entry>
-    <title>绫华！</title>
-    <url>/2023/05/27/hello-world/</url>
-    <content><![CDATA[<p><img src="/images/1.jpg" alt=""></p>
+    <title>随便发点</title>
+    <url>/2023/06/20/1/</url>
+    <content><![CDATA[<p><img src="/images/12.jpg" alt=""><br><img src="/images/13.jpg" alt=""><br><img src="/images/14.jpg" alt=""><br><img src="/images/15.jpg" alt=""><br><img src="/images/17.jpg" alt=""><br><img src="/images/21.jpg" alt=""></p>
 ]]></content>
       <categories>
         <category>二次元</category>
@@ -367,6 +310,111 @@
       </categories>
       <tags>
         <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>html(二)</title>
+    <url>/2023/06/24/2/</url>
+    <content><![CDATA[<h1 id="列表的应用场景"><a href="#列表的应用场景" class="headerlink" title="列表的应用场景"></a>列表的应用场景</h1><h2 id="1-无序列表"><a href="#1-无序列表" class="headerlink" title="1.无序列表"></a>1.无序列表</h2><p>代码：</p>
+<pre><code>&lt;body&gt;
+    &lt;ul&gt;
+    &lt;li&gt;列表内容&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/body&gt;
+</code></pre><p>场景：在网页中表示一组无顺序之分的列表，如：新闻列表</p>
+<table border="1">
+<caption>标签组成</caption>
+     <tr>
+        <th>标签名</th>
+        <th>说明</th>
+    </tr>
+    <tr>
+        <th>ul</th>
+        <th>表示无序列表的整体，用于包裹li标签</th>
+    </tr>
+    <tr>
+        <th>li </th>
+        <th>表示无序标签的每一项，用于包含每一行内容</th>
+    </tr>
+</table> 
+
+<p>显示特点：列表的每一项前默认显示圆点标识<br>注意点：</p>
+<ul>
+ <li>ul标签只能包含li标签</li>
+ <li>li标签可以包含任意内容</li>
+</ul>
+
+<h2 id="2-有序列表"><a href="#2-有序列表" class="headerlink" title="2.有序列表"></a>2.有序列表</h2><p>代码：</p>
+<pre><code>&lt;body&gt;
+     &lt;ol&gt;
+     &lt;li&gt;列表内容&lt;/li&gt;
+     &lt;/ol&gt;
+&lt;/body&gt;
+</code></pre><p>场景：在网页中表示一组有顺序之分的列表，如：排行榜</p>
+<table border="1">
+<caption>标签组成</caption>
+     <tr>
+        <th>标签名</th>
+        <th>说明</th>
+    </tr>
+    <tr>
+        <th>ol</th>
+        <th>表示有序列表的整体，用于包裹li标签</th>
+    </tr>
+    <tr>
+        <th>li </th>
+        <th>表示有序标签的每一项，用于包含每一行内容</th>
+    </tr>
+</table> 
+
+<p>显示特点：列表的每一项前默认显示序号标识<br>注意点：</p>
+<ul>     
+    <li>ol标签只允许包含li标签</li>
+    <li>li标签可以包含任意内容</li>
+</ul>
+
+<h2 id="3-自定义列表"><a href="#3-自定义列表" class="headerlink" title="3.自定义列表"></a>3.自定义列表</h2><p>代码：</p>
+<pre><code>&lt;body&gt;
+     &lt;dl&gt;
+           &lt;dt&gt;标签内容&lt;/dt&gt;
+           &lt;dd&gt;标签内容&lt;/dd&gt;
+     &lt;/dl&gt;
+&lt;/body&gt;
+</code></pre><p>场景：在网页的底部导航中通常会使用自定义列表实现。</p>
+<table border="1">
+<caption>标签组成</caption>
+     <tr>
+        <th>标签名</th>
+        <th>说明</th>
+    </tr>
+    <tr>
+        <th>dl</th>
+        <th>表示自定义列表整体，用于包裹dt/dd标签</th>
+    </tr>
+    <tr>
+        <th>dl</th>
+        <th>表示自定义列表的主题</th>
+    </tr>
+    <tr>
+        <th>dd</th>
+        <th>表示自定义列表的针对主题的每一项内容</th>
+    </tr>
+</table>  
+
+<p>显示特点：dd标签会默认显示缩进效果<br>注意点：</p>
+<ul>
+     <li>dl标签只允许包含dt/dd标签</li>
+     <li>dt/dd标签可以包含任意内容</li>
+</ul>
+
+
+
+]]></content>
+      <categories>
+        <category>教学</category>
+      </categories>
+      <tags>
+        <tag>HTML</tag>
       </tags>
   </entry>
 </search>
