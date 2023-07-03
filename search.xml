@@ -252,54 +252,6 @@
       </tags>
   </entry>
   <entry>
-    <title>绫华！</title>
-    <url>/2023/05/27/hello-world/</url>
-    <content><![CDATA[<p><img src="/images/1.jpg" alt=""></p>
-]]></content>
-      <categories>
-        <category>二次元</category>
-      </categories>
-      <tags>
-        <tag>图片</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>html基础知识(一)</title>
-    <url>/2023/06/07/html/</url>
-    <content><![CDATA[<h1 id="HTML基本框架"><a href="#HTML基本框架" class="headerlink" title="HTML基本框架"></a>HTML基本框架</h1><p>代码：</p>
-<pre><code>&lt;html&gt;
-&lt;head&gt;
-&lt;tittle&gt;网页的标题&lt;/tittle&gt;
-&lt;/head&gt;
-&lt;body&gt;
-网页的主题内容
-&lt;/body&gt;
-&lt;/html&gt;
-</code></pre><h1 id="HTML标签"><a href="#HTML标签" class="headerlink" title="HTML标签"></a>HTML标签</h1><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><pre><code>&lt;h1&gt;一级标题&lt;/h1&gt;
-&lt;h2&gt;二级标题&lt;/h2&gt;
-</code></pre><p>依此类推，一共有6级标题</p>
-<h2 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h2><pre><code>&lt;body&gt;
-&lt;p&gt;段落内容&lt;/p&gt;
-&lt;/body&gt;
-</code></pre><h2 id="换行与水平线"><a href="#换行与水平线" class="headerlink" title="换行与水平线"></a>换行与水平线</h2><p>换行符：<code>&lt;br&gt;</code><br>水平线：<code>&lt;hr&gt;</code></p>
-<h2 id="文本格式化标签"><a href="#文本格式化标签" class="headerlink" title="文本格式化标签"></a>文本格式化标签</h2><p><img src="/images/16.jpg" alt=""></p>
-<h1 id="图片的基本使用"><a href="#图片的基本使用" class="headerlink" title="图片的基本使用"></a>图片的基本使用</h1><h2 id="图片的标签"><a href="#图片的标签" class="headerlink" title="图片的标签"></a>图片的标签</h2><pre><code>&lt;img src=&quot;图片的地址&quot; alt=&quot;图片无法加载时显示的内容&quot; tittle=&quot;鼠标悬停时显示&quot; width=&quot; &quot; height=&quot; &quot;&gt;
-</code></pre><p>如果只设置了width或height中的一个，另一个会自动等比例缩放。</p>
-<h2 id="路径"><a href="#路径" class="headerlink" title="路径"></a>路径</h2><h2 id="绝对路径"><a href="#绝对路径" class="headerlink" title="绝对路径"></a>绝对路径</h2><p>指根目录下的绝对位置，可以直接到达目标位置，通常从盘符开始的路径。<br>例如：<br>     盘符开头：<code>D:\example\images\1.jpg</code><br>     完整网络地址：<code>https://example.com/images/1.jpg</code></p>
-<h2 id="相对路径"><a href="#相对路径" class="headerlink" title="相对路径"></a>相对路径</h2><h3 id="同级与下级"><a href="#同级与下级" class="headerlink" title="同级与下级"></a>同级与下级</h3><p>  同级：<code>&lt;img src=&quot;1.jpg&quot;&gt;</code><br>  下级：<code>&lt;img src=&quot;images/1.jpg&quot;&gt;</code></p>
-<h3 id="上级"><a href="#上级" class="headerlink" title="上级"></a>上级</h3><p>  <code>&lt;img src=&quot;../images/1.jpg&quot;&gt;</code></p>
-<h1 id="音频标签"><a href="#音频标签" class="headerlink" title="音频标签"></a>音频标签</h1><p> 代码：<code>&lt;audio src=&quot;./music.mp3&quot; controls&gt;&lt;/audio&gt;</code><br> <img src="/images/18.png" alt=""></p>
-<h1 id="视频标签"><a href="#视频标签" class="headerlink" title="视频标签"></a>视频标签</h1><p> 代码：<code>&lt;video src=&quot;./video.mp4&quot; controls&gt;&lt;/video&gt;</code><br> <img src="/images/19.png" alt=""></p>
-<h1 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h1><p> 代码：<code>&lt;a href=&quot;./目标网页.html&quot;&gt;</code>目标网页<code>&lt;/a&gt;</code><br> <code>&lt;a href=&quot;#&quot;&gt;</code>空连接，不知道到哪里去<code>&lt;/a&gt;</code><br> target属性值：<code>&lt;a href=&quot;./网页地址.html&quot; target=&quot; &quot;&gt;&lt;/a&gt;</code><br> <img src="/images/20.png" alt=""></p>
-]]></content>
-      <categories>
-        <category>教学</category>
-      </categories>
-      <tags>
-        <tag>HTML</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>html(二)</title>
     <url>/2023/06/24/2/</url>
     <content><![CDATA[<h1 id="列表的应用场景"><a href="#列表的应用场景" class="headerlink" title="列表的应用场景"></a>列表的应用场景</h1><h2 id="1-无序列表"><a href="#1-无序列表" class="headerlink" title="1.无序列表"></a>1.无序列表</h2><p>代码：</p>
@@ -443,12 +395,109 @@
  <li>类名可以重复，一个类选择器可以同时选中多个标签</li>
 </ol>
 
+<h3 id="id"><a href="#id" class="headerlink" title="id"></a>id</h3><p>结构：#属性名{ CSS属性名：属性值}<br>一个网页中只能存在一个id</p>
+<h3 id="通配符"><a href="#通配符" class="headerlink" title="通配符"></a>通配符</h3><p>结构:*{CSS属性性名：属性值}<br>通配符会作用在该网页的全部标签上。</p>
+<h2 id="文字样式"><a href="#文字样式" class="headerlink" title="文字样式"></a>文字样式</h2><p>字体大小：font-size<br>取值：大小+px；<br>字体粗细：font-weight<br>取值：</p>
+<ul>
+    <li>关键字：</li>
+     <table>
+     <tr>
+        <th>正常</th>
+        <th>normal</th>
+    </tr>
+    <tr>
+       <th>加粗</th>
+       <th>blod</th>
+    </tr>
+    </table>
+    <li>纯数字：100-900的整百数：</li>
+    <table>
+    <tr>
+       <th>正常</th>
+       <th>400</th>
+    </tr>
+    <tr>
+       <th>加粗</th>
+       <th>700</th>
+    </tr>
+    </table>
+</ul>
+
+<h3 id="font复合属性"><a href="#font复合属性" class="headerlink" title="font复合属性"></a>font复合属性</h3><p>属性名：font(复合属性)<br>取值：font:style weight size family<br>只能省略前两个，相当设置了默认值</p>
+<h2 id="文本标签"><a href="#文本标签" class="headerlink" title="文本标签"></a>文本标签</h2><h3 id="文本缩进"><a href="#文本缩进" class="headerlink" title="文本缩进"></a>文本缩进</h3><p>属性名：text-indent<br>取值：</p>
+<ul>
+    <li>数字+px</li>
+    <li>数字+em(推荐：1em=当前标签的font-size的大小)</li>
+</ul>
+
+<p>代码：</p>
+<pre><code>p&#123;
+    text-indent:
+&#125;
+</code></pre><h3 id="水平对齐"><a href="#水平对齐" class="headerlink" title="水平对齐"></a>水平对齐</h3><p>属性名：text-align<br>取值：</p>
+<table>
+    <tr>
+       <th>属性值</th>
+       <th>效果</th>
+    </tr>
+    <tr>
+       <th>left</th>
+       <th>左对齐</th>
+    </tr>
+    <tr>   
+       <th>center</th>
+       <th>居中对齐</th>
+    </tr>
+    <tr>
+       <th>right</th>
+       <th>右对齐</th>
+    </tr>
+</table>
+
+<h3 id="文本修饰"><a href="#文本修饰" class="headerlink" title="文本修饰"></a>文本修饰</h3><p>属性名：text-decoration<br>取值：</p>
+<table>
+    <tr>
+       <th>属性值</th>
+       <th>效果</th>
+    </tr>
+    <tr>
+       <th>underline</th>
+       <th>下划线(常用)</th>
+    </tr>
+    <tr>   
+       <th>line-through</th>
+       <th>删除线</th>
+    </tr>
+    <tr>
+       <th>overline</th>
+       <th>上划线</th>
+    </tr>
+    <tr>
+       <th>none</th>
+       <th>无装饰线</th>
+    </tr>
+</table>
+
+<h2 id="拓展"><a href="#拓展" class="headerlink" title="拓展"></a>拓展</h2><p>水平居中：margin:0 auto</p>
+<p>层叠性：同一属性值，后写的会覆盖先写的。</p>
 ]]></content>
       <categories>
         <category>前端</category>
       </categories>
       <tags>
         <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>绫华！</title>
+    <url>/2023/05/27/hello-world/</url>
+    <content><![CDATA[<p><img src="/images/1.jpg" alt=""></p>
+]]></content>
+      <categories>
+        <category>二次元</category>
+      </categories>
+      <tags>
+        <tag>图片</tag>
       </tags>
   </entry>
   <entry>
@@ -477,6 +526,42 @@
       </categories>
       <tags>
         <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>html基础知识(一)</title>
+    <url>/2023/06/07/html/</url>
+    <content><![CDATA[<h1 id="HTML基本框架"><a href="#HTML基本框架" class="headerlink" title="HTML基本框架"></a>HTML基本框架</h1><p>代码：</p>
+<pre><code>&lt;html&gt;
+&lt;head&gt;
+&lt;tittle&gt;网页的标题&lt;/tittle&gt;
+&lt;/head&gt;
+&lt;body&gt;
+网页的主题内容
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre><h1 id="HTML标签"><a href="#HTML标签" class="headerlink" title="HTML标签"></a>HTML标签</h1><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><pre><code>&lt;h1&gt;一级标题&lt;/h1&gt;
+&lt;h2&gt;二级标题&lt;/h2&gt;
+</code></pre><p>依此类推，一共有6级标题</p>
+<h2 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h2><pre><code>&lt;body&gt;
+&lt;p&gt;段落内容&lt;/p&gt;
+&lt;/body&gt;
+</code></pre><h2 id="换行与水平线"><a href="#换行与水平线" class="headerlink" title="换行与水平线"></a>换行与水平线</h2><p>换行符：<code>&lt;br&gt;</code><br>水平线：<code>&lt;hr&gt;</code></p>
+<h2 id="文本格式化标签"><a href="#文本格式化标签" class="headerlink" title="文本格式化标签"></a>文本格式化标签</h2><p><img src="/images/16.jpg" alt=""></p>
+<h1 id="图片的基本使用"><a href="#图片的基本使用" class="headerlink" title="图片的基本使用"></a>图片的基本使用</h1><h2 id="图片的标签"><a href="#图片的标签" class="headerlink" title="图片的标签"></a>图片的标签</h2><pre><code>&lt;img src=&quot;图片的地址&quot; alt=&quot;图片无法加载时显示的内容&quot; tittle=&quot;鼠标悬停时显示&quot; width=&quot; &quot; height=&quot; &quot;&gt;
+</code></pre><p>如果只设置了width或height中的一个，另一个会自动等比例缩放。</p>
+<h2 id="路径"><a href="#路径" class="headerlink" title="路径"></a>路径</h2><h2 id="绝对路径"><a href="#绝对路径" class="headerlink" title="绝对路径"></a>绝对路径</h2><p>指根目录下的绝对位置，可以直接到达目标位置，通常从盘符开始的路径。<br>例如：<br>     盘符开头：<code>D:\example\images\1.jpg</code><br>     完整网络地址：<code>https://example.com/images/1.jpg</code></p>
+<h2 id="相对路径"><a href="#相对路径" class="headerlink" title="相对路径"></a>相对路径</h2><h3 id="同级与下级"><a href="#同级与下级" class="headerlink" title="同级与下级"></a>同级与下级</h3><p>  同级：<code>&lt;img src=&quot;1.jpg&quot;&gt;</code><br>  下级：<code>&lt;img src=&quot;images/1.jpg&quot;&gt;</code></p>
+<h3 id="上级"><a href="#上级" class="headerlink" title="上级"></a>上级</h3><p>  <code>&lt;img src=&quot;../images/1.jpg&quot;&gt;</code></p>
+<h1 id="音频标签"><a href="#音频标签" class="headerlink" title="音频标签"></a>音频标签</h1><p> 代码：<code>&lt;audio src=&quot;./music.mp3&quot; controls&gt;&lt;/audio&gt;</code><br> <img src="/images/18.png" alt=""></p>
+<h1 id="视频标签"><a href="#视频标签" class="headerlink" title="视频标签"></a>视频标签</h1><p> 代码：<code>&lt;video src=&quot;./video.mp4&quot; controls&gt;&lt;/video&gt;</code><br> <img src="/images/19.png" alt=""></p>
+<h1 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h1><p> 代码：<code>&lt;a href=&quot;./目标网页.html&quot;&gt;</code>目标网页<code>&lt;/a&gt;</code><br> <code>&lt;a href=&quot;#&quot;&gt;</code>空连接，不知道到哪里去<code>&lt;/a&gt;</code><br> target属性值：<code>&lt;a href=&quot;./网页地址.html&quot; target=&quot; &quot;&gt;&lt;/a&gt;</code><br> <img src="/images/20.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>教学</category>
+      </categories>
+      <tags>
+        <tag>HTML</tag>
       </tags>
   </entry>
 </search>
