@@ -13,6 +13,255 @@
       </tags>
   </entry>
   <entry>
+    <title>html(二)</title>
+    <url>/2023/06/24/2/</url>
+    <content><![CDATA[<h1 id="列表的应用场景"><a href="#列表的应用场景" class="headerlink" title="列表的应用场景"></a>列表的应用场景</h1><h2 id="1-无序列表"><a href="#1-无序列表" class="headerlink" title="1.无序列表"></a>1.无序列表</h2><p>代码：</p>
+<pre><code>&lt;body&gt;
+    &lt;ul&gt;
+    &lt;li&gt;列表内容&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/body&gt;
+</code></pre><p>场景：在网页中表示一组无顺序之分的列表，如：新闻列表</p>
+<table border="1">
+<caption>标签组成</caption>
+     <tr>
+        <th>标签名</th>
+        <th>说明</th>
+    </tr>
+    <tr>
+        <th>ul</th>
+        <th>表示无序列表的整体，用于包裹li标签</th>
+    </tr>
+    <tr>
+        <th>li </th>
+        <th>表示无序标签的每一项，用于包含每一行内容</th>
+    </tr>
+</table> 
+
+<p>显示特点：列表的每一项前默认显示圆点标识<br>注意点：</p>
+<ul>
+ <li>ul标签只能包含li标签</li>
+ <li>li标签可以包含任意内容</li>
+</ul>
+
+<h2 id="2-有序列表"><a href="#2-有序列表" class="headerlink" title="2.有序列表"></a>2.有序列表</h2><p>代码：</p>
+<pre><code>&lt;body&gt;
+     &lt;ol&gt;
+     &lt;li&gt;列表内容&lt;/li&gt;
+     &lt;/ol&gt;
+&lt;/body&gt;
+</code></pre><p>场景：在网页中表示一组有顺序之分的列表，如：排行榜</p>
+<table border="1">
+<caption>标签组成</caption>
+     <tr>
+        <th>标签名</th>
+        <th>说明</th>
+    </tr>
+    <tr>
+        <th>ol</th>
+        <th>表示有序列表的整体，用于包裹li标签</th>
+    </tr>
+    <tr>
+        <th>li </th>
+        <th>表示有序标签的每一项，用于包含每一行内容</th>
+    </tr>
+</table> 
+
+<p>显示特点：列表的每一项前默认显示序号标识<br>注意点：</p>
+<ul>     
+    <li>ol标签只允许包含li标签</li>
+    <li>li标签可以包含任意内容</li>
+</ul>
+
+<h2 id="3-自定义列表"><a href="#3-自定义列表" class="headerlink" title="3.自定义列表"></a>3.自定义列表</h2><p>代码：</p>
+<pre><code>&lt;body&gt;
+     &lt;dl&gt;
+           &lt;dt&gt;标签内容&lt;/dt&gt;
+           &lt;dd&gt;标签内容&lt;/dd&gt;
+     &lt;/dl&gt;
+&lt;/body&gt;
+</code></pre><p>场景：在网页的底部导航中通常会使用自定义列表实现。</p>
+<table border="1">
+<caption>标签组成</caption>
+     <tr>
+        <th>标签名</th>
+        <th>说明</th>
+    </tr>
+    <tr>
+        <th>dl</th>
+        <th>表示自定义列表整体，用于包裹dt/dd标签</th>
+    </tr>
+    <tr>
+        <th>dl</th>
+        <th>表示自定义列表的主题</th>
+    </tr>
+    <tr>
+        <th>dd</th>
+        <th>表示自定义列表的针对主题的每一项内容</th>
+    </tr>
+</table>  
+
+<p>显示特点：dd标签会默认显示缩进效果<br>注意点：</p>
+<ul>
+     <li>dl标签只允许包含dt/dd标签</li>
+     <li>dt/dd标签可以包含任意内容</li>
+</ul>
+
+
+
+]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>HTML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大一经历</title>
+    <url>/2023/06/25/3/</url>
+    <content><![CDATA[<p><img src="/images/30.jpg" alt=""> <img src="/images/31.jpg" alt=""><br><img src="/images/32.jpg" alt=""> <img src="/images/33.jpg" alt=""><br><img src="/images/34.jpg" alt=""> <img src="/images/35.jpg" alt=""><br><img src="/images/36.jpg" alt=""> <img src="/images/37.jpg" alt=""><br><img src="/images/38.jpg" alt=""> <img src="/images/39.jpg" alt=""><br><img src="/images/40.jpg" alt=""> <img src="/images/41.jpg" alt=""></p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>图片</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>css基础</title>
+    <url>/2023/07/02/5/</url>
+    <content><![CDATA[<h1 id="css基础"><a href="#css基础" class="headerlink" title="css基础"></a>css基础</h1><h2 id="css常见引入方式"><a href="#css常见引入方式" class="headerlink" title="css常见引入方式"></a>css常见引入方式</h2><table border="1">
+    <tr>
+       <th>引入方式</th>
+       <th>书写位置</th>
+       <th>作用范围</th>
+       <th>使用场景</th>
+    </tr>
+    <tr>
+       <th>内嵌式</th>
+       <th>css写在style标签内</th>
+       <th>当前页面</th>
+       <th>小案例</th>
+    </tr>
+    <tr>
+       <th>外嵌式</th>
+       <th>CSS单独写在css文件中,通过link标签引入</th>
+       <th>多个页面</th>
+       <th>项目中</th>
+    </tr>
+    <tr>
+       <th>行内式</th>
+       <th>CSS写在标签的style属性中</th>
+       <th>当前页面</th>
+       <th>配合js使用</th>
+    </tr>
+</table>
+
+<h2 id="选择器"><a href="#选择器" class="headerlink" title="选择器"></a>选择器</h2><h3 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h3><p>以标签名命名的选择器,选中所有的这个标签都生效CSS。</p>
+<h3 id="类"><a href="#类" class="headerlink" title="类"></a>类</h3><p>结构：.类名{ CSS属性名：属性值}<br>作用：通过类名，找到页面中所有带这个类名的标签<br>注意点：</p>
+<ol>
+ <li>所有标签上都有class属性，class属性的属性值为类名(类似于名字)</li>
+ <li>类名可以有数字，字母，下划线组成，但不能以数字和中划线开头</li>
+ <li>一个标签有多个类名，类名之间用空格分开</li>
+ <li>类名可以重复，一个类选择器可以同时选中多个标签</li>
+</ol>
+
+<h3 id="id"><a href="#id" class="headerlink" title="id"></a>id</h3><p>结构：#属性名{ CSS属性名：属性值}<br>一个网页中只能存在一个id</p>
+<h3 id="通配符"><a href="#通配符" class="headerlink" title="通配符"></a>通配符</h3><p>结构:*{CSS属性性名：属性值}<br>通配符会作用在该网页的全部标签上。</p>
+<h2 id="文字样式"><a href="#文字样式" class="headerlink" title="文字样式"></a>文字样式</h2><p>字体大小：font-size<br>取值：大小+px；<br>字体粗细：font-weight<br>取值：</p>
+<ul>
+    <li>关键字：</li>
+     <table>
+     <tr>
+        <th>正常</th>
+        <th>normal</th>
+    </tr>
+    <tr>
+       <th>加粗</th>
+       <th>blod</th>
+    </tr>
+    </table>
+    <li>纯数字：100-900的整百数：</li>
+    <table>
+    <tr>
+       <th>正常</th>
+       <th>400</th>
+    </tr>
+    <tr>
+       <th>加粗</th>
+       <th>700</th>
+    </tr>
+    </table>
+</ul>
+
+<h3 id="font复合属性"><a href="#font复合属性" class="headerlink" title="font复合属性"></a>font复合属性</h3><p>属性名：font(复合属性)<br>取值：font:style weight size family<br>只能省略前两个，相当设置了默认值</p>
+<h2 id="文本标签"><a href="#文本标签" class="headerlink" title="文本标签"></a>文本标签</h2><h3 id="文本缩进"><a href="#文本缩进" class="headerlink" title="文本缩进"></a>文本缩进</h3><p>属性名：text-indent<br>取值：</p>
+<ul>
+    <li>数字+px</li>
+    <li>数字+em(推荐：1em=当前标签的font-size的大小)</li>
+</ul>
+
+<p>代码：</p>
+<pre><code>p&#123;
+    text-indent:
+&#125;
+</code></pre><h3 id="水平对齐"><a href="#水平对齐" class="headerlink" title="水平对齐"></a>水平对齐</h3><p>属性名：text-align<br>取值：</p>
+<table>
+    <tr>
+       <th>属性值</th>
+       <th>效果</th>
+    </tr>
+    <tr>
+       <th>left</th>
+       <th>左对齐</th>
+    </tr>
+    <tr>   
+       <th>center</th>
+       <th>居中对齐</th>
+    </tr>
+    <tr>
+       <th>right</th>
+       <th>右对齐</th>
+    </tr>
+</table>
+
+<h3 id="文本修饰"><a href="#文本修饰" class="headerlink" title="文本修饰"></a>文本修饰</h3><p>属性名：text-decoration<br>取值：</p>
+<table>
+    <tr>
+       <th>属性值</th>
+       <th>效果</th>
+    </tr>
+    <tr>
+       <th>underline</th>
+       <th>下划线(常用)</th>
+    </tr>
+    <tr>   
+       <th>line-through</th>
+       <th>删除线</th>
+    </tr>
+    <tr>
+       <th>overline</th>
+       <th>上划线</th>
+    </tr>
+    <tr>
+       <th>none</th>
+       <th>无装饰线</th>
+    </tr>
+</table>
+
+<h2 id="拓展"><a href="#拓展" class="headerlink" title="拓展"></a>拓展</h2><p>水平居中：margin:0 auto</p>
+<p>层叠性：同一属性值，后写的会覆盖先写的。</p>
+]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>html(三)</title>
     <url>/2023/06/27/4/</url>
     <content><![CDATA[<h1 id="html"><a href="#html" class="headerlink" title="html"></a>html</h1><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><table border="1">
@@ -240,243 +489,6 @@
       </tags>
   </entry>
   <entry>
-    <title>html(二)</title>
-    <url>/2023/06/24/2/</url>
-    <content><![CDATA[<h1 id="列表的应用场景"><a href="#列表的应用场景" class="headerlink" title="列表的应用场景"></a>列表的应用场景</h1><h2 id="1-无序列表"><a href="#1-无序列表" class="headerlink" title="1.无序列表"></a>1.无序列表</h2><p>代码：</p>
-<pre><code>&lt;body&gt;
-    &lt;ul&gt;
-    &lt;li&gt;列表内容&lt;/li&gt;
-    &lt;/ul&gt;
-&lt;/body&gt;
-</code></pre><p>场景：在网页中表示一组无顺序之分的列表，如：新闻列表</p>
-<table border="1">
-<caption>标签组成</caption>
-     <tr>
-        <th>标签名</th>
-        <th>说明</th>
-    </tr>
-    <tr>
-        <th>ul</th>
-        <th>表示无序列表的整体，用于包裹li标签</th>
-    </tr>
-    <tr>
-        <th>li </th>
-        <th>表示无序标签的每一项，用于包含每一行内容</th>
-    </tr>
-</table> 
-
-<p>显示特点：列表的每一项前默认显示圆点标识<br>注意点：</p>
-<ul>
- <li>ul标签只能包含li标签</li>
- <li>li标签可以包含任意内容</li>
-</ul>
-
-<h2 id="2-有序列表"><a href="#2-有序列表" class="headerlink" title="2.有序列表"></a>2.有序列表</h2><p>代码：</p>
-<pre><code>&lt;body&gt;
-     &lt;ol&gt;
-     &lt;li&gt;列表内容&lt;/li&gt;
-     &lt;/ol&gt;
-&lt;/body&gt;
-</code></pre><p>场景：在网页中表示一组有顺序之分的列表，如：排行榜</p>
-<table border="1">
-<caption>标签组成</caption>
-     <tr>
-        <th>标签名</th>
-        <th>说明</th>
-    </tr>
-    <tr>
-        <th>ol</th>
-        <th>表示有序列表的整体，用于包裹li标签</th>
-    </tr>
-    <tr>
-        <th>li </th>
-        <th>表示有序标签的每一项，用于包含每一行内容</th>
-    </tr>
-</table> 
-
-<p>显示特点：列表的每一项前默认显示序号标识<br>注意点：</p>
-<ul>     
-    <li>ol标签只允许包含li标签</li>
-    <li>li标签可以包含任意内容</li>
-</ul>
-
-<h2 id="3-自定义列表"><a href="#3-自定义列表" class="headerlink" title="3.自定义列表"></a>3.自定义列表</h2><p>代码：</p>
-<pre><code>&lt;body&gt;
-     &lt;dl&gt;
-           &lt;dt&gt;标签内容&lt;/dt&gt;
-           &lt;dd&gt;标签内容&lt;/dd&gt;
-     &lt;/dl&gt;
-&lt;/body&gt;
-</code></pre><p>场景：在网页的底部导航中通常会使用自定义列表实现。</p>
-<table border="1">
-<caption>标签组成</caption>
-     <tr>
-        <th>标签名</th>
-        <th>说明</th>
-    </tr>
-    <tr>
-        <th>dl</th>
-        <th>表示自定义列表整体，用于包裹dt/dd标签</th>
-    </tr>
-    <tr>
-        <th>dl</th>
-        <th>表示自定义列表的主题</th>
-    </tr>
-    <tr>
-        <th>dd</th>
-        <th>表示自定义列表的针对主题的每一项内容</th>
-    </tr>
-</table>  
-
-<p>显示特点：dd标签会默认显示缩进效果<br>注意点：</p>
-<ul>
-     <li>dl标签只允许包含dt/dd标签</li>
-     <li>dt/dd标签可以包含任意内容</li>
-</ul>
-
-
-
-]]></content>
-      <categories>
-        <category>前端</category>
-      </categories>
-      <tags>
-        <tag>HTML</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>css基础</title>
-    <url>/2023/07/02/5/</url>
-    <content><![CDATA[<h1 id="css基础"><a href="#css基础" class="headerlink" title="css基础"></a>css基础</h1><h2 id="css常见引入方式"><a href="#css常见引入方式" class="headerlink" title="css常见引入方式"></a>css常见引入方式</h2><table border="1">
-    <tr>
-       <th>引入方式</th>
-       <th>书写位置</th>
-       <th>作用范围</th>
-       <th>使用场景</th>
-    </tr>
-    <tr>
-       <th>内嵌式</th>
-       <th>css写在style标签内</th>
-       <th>当前页面</th>
-       <th>小案例</th>
-    </tr>
-    <tr>
-       <th>外嵌式</th>
-       <th>CSS单独写在css文件中,通过link标签引入</th>
-       <th>多个页面</th>
-       <th>项目中</th>
-    </tr>
-    <tr>
-       <th>行内式</th>
-       <th>CSS写在标签的style属性中</th>
-       <th>当前页面</th>
-       <th>配合js使用</th>
-    </tr>
-</table>
-
-<h2 id="选择器"><a href="#选择器" class="headerlink" title="选择器"></a>选择器</h2><h3 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h3><p>以标签名命名的选择器,选中所有的这个标签都生效CSS。</p>
-<h3 id="类"><a href="#类" class="headerlink" title="类"></a>类</h3><p>结构：.类名{ CSS属性名：属性值}<br>作用：通过类名，找到页面中所有带这个类名的标签<br>注意点：</p>
-<ol>
- <li>所有标签上都有class属性，class属性的属性值为类名(类似于名字)</li>
- <li>类名可以有数字，字母，下划线组成，但不能以数字和中划线开头</li>
- <li>一个标签有多个类名，类名之间用空格分开</li>
- <li>类名可以重复，一个类选择器可以同时选中多个标签</li>
-</ol>
-
-<h3 id="id"><a href="#id" class="headerlink" title="id"></a>id</h3><p>结构：#属性名{ CSS属性名：属性值}<br>一个网页中只能存在一个id</p>
-<h3 id="通配符"><a href="#通配符" class="headerlink" title="通配符"></a>通配符</h3><p>结构:*{CSS属性性名：属性值}<br>通配符会作用在该网页的全部标签上。</p>
-<h2 id="文字样式"><a href="#文字样式" class="headerlink" title="文字样式"></a>文字样式</h2><p>字体大小：font-size<br>取值：大小+px；<br>字体粗细：font-weight<br>取值：</p>
-<ul>
-    <li>关键字：</li>
-     <table>
-     <tr>
-        <th>正常</th>
-        <th>normal</th>
-    </tr>
-    <tr>
-       <th>加粗</th>
-       <th>blod</th>
-    </tr>
-    </table>
-    <li>纯数字：100-900的整百数：</li>
-    <table>
-    <tr>
-       <th>正常</th>
-       <th>400</th>
-    </tr>
-    <tr>
-       <th>加粗</th>
-       <th>700</th>
-    </tr>
-    </table>
-</ul>
-
-<h3 id="font复合属性"><a href="#font复合属性" class="headerlink" title="font复合属性"></a>font复合属性</h3><p>属性名：font(复合属性)<br>取值：font:style weight size family<br>只能省略前两个，相当设置了默认值</p>
-<h2 id="文本标签"><a href="#文本标签" class="headerlink" title="文本标签"></a>文本标签</h2><h3 id="文本缩进"><a href="#文本缩进" class="headerlink" title="文本缩进"></a>文本缩进</h3><p>属性名：text-indent<br>取值：</p>
-<ul>
-    <li>数字+px</li>
-    <li>数字+em(推荐：1em=当前标签的font-size的大小)</li>
-</ul>
-
-<p>代码：</p>
-<pre><code>p&#123;
-    text-indent:
-&#125;
-</code></pre><h3 id="水平对齐"><a href="#水平对齐" class="headerlink" title="水平对齐"></a>水平对齐</h3><p>属性名：text-align<br>取值：</p>
-<table>
-    <tr>
-       <th>属性值</th>
-       <th>效果</th>
-    </tr>
-    <tr>
-       <th>left</th>
-       <th>左对齐</th>
-    </tr>
-    <tr>   
-       <th>center</th>
-       <th>居中对齐</th>
-    </tr>
-    <tr>
-       <th>right</th>
-       <th>右对齐</th>
-    </tr>
-</table>
-
-<h3 id="文本修饰"><a href="#文本修饰" class="headerlink" title="文本修饰"></a>文本修饰</h3><p>属性名：text-decoration<br>取值：</p>
-<table>
-    <tr>
-       <th>属性值</th>
-       <th>效果</th>
-    </tr>
-    <tr>
-       <th>underline</th>
-       <th>下划线(常用)</th>
-    </tr>
-    <tr>   
-       <th>line-through</th>
-       <th>删除线</th>
-    </tr>
-    <tr>
-       <th>overline</th>
-       <th>上划线</th>
-    </tr>
-    <tr>
-       <th>none</th>
-       <th>无装饰线</th>
-    </tr>
-</table>
-
-<h2 id="拓展"><a href="#拓展" class="headerlink" title="拓展"></a>拓展</h2><p>水平居中：margin:0 auto</p>
-<p>层叠性：同一属性值，后写的会覆盖先写的。</p>
-]]></content>
-      <categories>
-        <category>前端</category>
-      </categories>
-      <tags>
-        <tag>CSS</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>html基础知识(一)</title>
     <url>/2023/06/07/html/</url>
     <content><![CDATA[<h1 id="HTML基本框架"><a href="#HTML基本框架" class="headerlink" title="HTML基本框架"></a>HTML基本框架</h1><p>代码：</p>
@@ -510,30 +522,6 @@
       </categories>
       <tags>
         <tag>HTML</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>绫华！</title>
-    <url>/2023/05/27/hello-world/</url>
-    <content><![CDATA[<p><img src="/images/1.jpg" alt=""></p>
-]]></content>
-      <categories>
-        <category>二次元</category>
-      </categories>
-      <tags>
-        <tag>图片</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>大一经历</title>
-    <url>/2023/06/25/3/</url>
-    <content><![CDATA[<p><img src="/images/30.jpg" alt=""> <img src="/images/31.jpg" alt=""><br><img src="/images/32.jpg" alt=""> <img src="/images/33.jpg" alt=""><br><img src="/images/34.jpg" alt=""> <img src="/images/35.jpg" alt=""><br><img src="/images/36.jpg" alt=""> <img src="/images/37.jpg" alt=""><br><img src="/images/38.jpg" alt=""> <img src="/images/39.jpg" alt=""><br><img src="/images/40.jpg" alt=""> <img src="/images/41.jpg" alt=""></p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>图片</tag>
       </tags>
   </entry>
   <entry>
@@ -654,6 +642,18 @@ void main()
       </categories>
       <tags>
         <tag>单片机</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>绫华！</title>
+    <url>/2023/05/27/hello-world/</url>
+    <content><![CDATA[<p><img src="/images/1.jpg" alt=""></p>
+]]></content>
+      <categories>
+        <category>二次元</category>
+      </categories>
+      <tags>
+        <tag>图片</tag>
       </tags>
   </entry>
 </search>
