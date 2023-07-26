@@ -1,6 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>随便发点</title>
+    <url>/2023/06/20/1/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="/images/12.jpg" alt><br><img src="/images/13.jpg" alt><br><img src="/images/14.jpg" alt><br><img src="/images/15.jpg" alt><br><img src="/images/17.jpg" alt><br><img src="/images/21.jpg" alt></p>
+]]></content>
+      <categories>
+        <category>二次元</category>
+      </categories>
+      <tags>
+        <tag>图片</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>html(二)</title>
+    <url>/2023/06/24/2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1><span id="列表的应用场景">列表的应用场景</span></h1><h2><span id="1无序列表">1.无序列表</span></h2><p>代码：</p>
+<pre><code>&lt;body&gt;
+    &lt;ul&gt;
+    &lt;li&gt;列表内容&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/body&gt;
+</code></pre><p>场景：在网页中表示一组无顺序之分的列表，如：新闻列表</p>
+<table border="1">
+<caption>标签组成</caption>
+     <tr>
+        <th>标签名</th>
+        <th>说明</th>
+    </tr>
+    <tr>
+        <th>ul</th>
+        <th>表示无序列表的整体，用于包裹li标签</th>
+    </tr>
+    <tr>
+        <th>li </th>
+        <th>表示无序标签的每一项，用于包含每一行内容</th>
+    </tr>
+</table> 
+
+<p>显示特点：列表的每一项前默认显示圆点标识<br>注意点：</p>
+<ul>
+ <li>ul标签只能包含li标签</li>
+ <li>li标签可以包含任意内容</li>
+</ul>
+
+<h2><span id="2有序列表">2.有序列表</span></h2><p>代码：</p>
+<pre><code>&lt;body&gt;
+     &lt;ol&gt;
+     &lt;li&gt;列表内容&lt;/li&gt;
+     &lt;/ol&gt;
+&lt;/body&gt;
+</code></pre><p>场景：在网页中表示一组有顺序之分的列表，如：排行榜</p>
+<table border="1">
+<caption>标签组成</caption>
+     <tr>
+        <th>标签名</th>
+        <th>说明</th>
+    </tr>
+    <tr>
+        <th>ol</th>
+        <th>表示有序列表的整体，用于包裹li标签</th>
+    </tr>
+    <tr>
+        <th>li </th>
+        <th>表示有序标签的每一项，用于包含每一行内容</th>
+    </tr>
+</table> 
+
+<p>显示特点：列表的每一项前默认显示序号标识<br>注意点：</p>
+<ul>     
+    <li>ol标签只允许包含li标签</li>
+    <li>li标签可以包含任意内容</li>
+</ul>
+
+<h2><span id="3自定义列表">3.自定义列表</span></h2><p>代码：</p>
+<pre><code>&lt;body&gt;
+     &lt;dl&gt;
+           &lt;dt&gt;标签内容&lt;/dt&gt;
+           &lt;dd&gt;标签内容&lt;/dd&gt;
+     &lt;/dl&gt;
+&lt;/body&gt;
+</code></pre><p>场景：在网页的底部导航中通常会使用自定义列表实现。</p>
+<table border="1">
+<caption>标签组成</caption>
+     <tr>
+        <th>标签名</th>
+        <th>说明</th>
+    </tr>
+    <tr>
+        <th>dl</th>
+        <th>表示自定义列表整体，用于包裹dt/dd标签</th>
+    </tr>
+    <tr>
+        <th>dl</th>
+        <th>表示自定义列表的主题</th>
+    </tr>
+    <tr>
+        <th>dd</th>
+        <th>表示自定义列表的针对主题的每一项内容</th>
+    </tr>
+</table>  
+
+<p>显示特点：dd标签会默认显示缩进效果<br>注意点：</p>
+<ul>
+     <li>dl标签只允许包含dt/dd标签</li>
+     <li>dt/dd标签可以包含任意内容</li>
+</ul>
+
+
+
+]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>HTML</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>大一经历</title>
     <url>/2023/06/25/3/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="/images/30.jpg" alt> <img src="/images/31.jpg" alt><br><img src="/images/32.jpg" alt> <img src="/images/33.jpg" alt><br><img src="/images/34.jpg" alt> <img src="/images/35.jpg" alt><br><img src="/images/36.jpg" alt> <img src="/images/37.jpg" alt><br><img src="/images/38.jpg" alt> <img src="/images/39.jpg" alt><br><img src="/images/40.jpg" alt> <img src="/images/41.jpg" alt></p>
@@ -10,138 +127,6 @@
       </categories>
       <tags>
         <tag>图片</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>css基础</title>
-    <url>/2023/07/02/5/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1><span id="css基础">css基础</span></h1><h2><span id="css常见引入方式">css常见引入方式</span></h2><table border="1">
-    <tr>
-       <th>引入方式</th>
-       <th>书写位置</th>
-       <th>作用范围</th>
-       <th>使用场景</th>
-    </tr>
-    <tr>
-       <th>内嵌式</th>
-       <th>css写在style标签内</th>
-       <th>当前页面</th>
-       <th>小案例</th>
-    </tr>
-    <tr>
-       <th>外嵌式</th>
-       <th>CSS单独写在css文件中,通过link标签引入</th>
-       <th>多个页面</th>
-       <th>项目中</th>
-    </tr>
-    <tr>
-       <th>行内式</th>
-       <th>CSS写在标签的style属性中</th>
-       <th>当前页面</th>
-       <th>配合js使用</th>
-    </tr>
-</table>
-
-<h2><span id="选择器">选择器</span></h2><h3><span id="标签">标签</span></h3><p>以标签名命名的选择器,选中所有的这个标签都生效CSS。</p>
-<h3><span id="类">类</span></h3><p>结构：.类名{ CSS属性名：属性值}<br>作用：通过类名，找到页面中所有带这个类名的标签<br>注意点：</p>
-<ol>
- <li>所有标签上都有class属性，class属性的属性值为类名(类似于名字)</li>
- <li>类名可以有数字，字母，下划线组成，但不能以数字和中划线开头</li>
- <li>一个标签有多个类名，类名之间用空格分开</li>
- <li>类名可以重复，一个类选择器可以同时选中多个标签</li>
-</ol>
-
-<h3><span id="id">id</span></h3><p>结构：#属性名{ CSS属性名：属性值}<br>一个网页中只能存在一个id</p>
-<h3><span id="通配符">通配符</span></h3><p>结构:*{CSS属性性名：属性值}<br>通配符会作用在该网页的全部标签上。</p>
-<h2><span id="文字样式">文字样式</span></h2><p>字体大小：font-size<br>取值：大小+px；<br>字体粗细：font-weight<br>取值：</p>
-<ul>
-    <li>关键字：</li>
-     <table>
-     <tr>
-        <th>正常</th>
-        <th>normal</th>
-    </tr>
-    <tr>
-       <th>加粗</th>
-       <th>blod</th>
-    </tr>
-    </table>
-    <li>纯数字：100-900的整百数：</li>
-    <table>
-    <tr>
-       <th>正常</th>
-       <th>400</th>
-    </tr>
-    <tr>
-       <th>加粗</th>
-       <th>700</th>
-    </tr>
-    </table>
-</ul>
-
-<h3><span id="font复合属性">font复合属性</span></h3><p>属性名：font(复合属性)<br>取值：font:style weight size family<br>只能省略前两个，相当设置了默认值</p>
-<h2><span id="文本标签">文本标签</span></h2><h3><span id="文本缩进">文本缩进</span></h3><p>属性名：text-indent<br>取值：</p>
-<ul>
-    <li>数字+px</li>
-    <li>数字+em(推荐：1em=当前标签的font-size的大小)</li>
-</ul>
-
-<p>代码：</p>
-<pre><code>p&#123;
-    text-indent:
-&#125;
-</code></pre><h3><span id="水平对齐">水平对齐</span></h3><p>属性名：text-align<br>取值：</p>
-<table>
-    <tr>
-       <th>属性值</th>
-       <th>效果</th>
-    </tr>
-    <tr>
-       <th>left</th>
-       <th>左对齐</th>
-    </tr>
-    <tr>   
-       <th>center</th>
-       <th>居中对齐</th>
-    </tr>
-    <tr>
-       <th>right</th>
-       <th>右对齐</th>
-    </tr>
-</table>
-
-<h3><span id="文本修饰">文本修饰</span></h3><p>属性名：text-decoration<br>取值：</p>
-<table>
-    <tr>
-       <th>属性值</th>
-       <th>效果</th>
-    </tr>
-    <tr>
-       <th>underline</th>
-       <th>下划线(常用)</th>
-    </tr>
-    <tr>   
-       <th>line-through</th>
-       <th>删除线</th>
-    </tr>
-    <tr>
-       <th>overline</th>
-       <th>上划线</th>
-    </tr>
-    <tr>
-       <th>none</th>
-       <th>无装饰线</th>
-    </tr>
-</table>
-
-<h2><span id="拓展">拓展</span></h2><p>水平居中：margin:0 auto</p>
-<p>层叠性：同一属性值，后写的会覆盖先写的。</p>
-]]></content>
-      <categories>
-        <category>前端</category>
-      </categories>
-      <tags>
-        <tag>CSS</tag>
       </tags>
   </entry>
   <entry>
@@ -369,162 +354,6 @@
       </categories>
       <tags>
         <tag>HTML</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>html基础知识(一)</title>
-    <url>/2023/06/07/html/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1><span id="html基本框架">HTML基本框架</span></h1><p>代码：</p>
-<pre><code>&lt;html&gt;
-&lt;head&gt;
-&lt;tittle&gt;网页的标题&lt;/tittle&gt;
-&lt;/head&gt;
-&lt;body&gt;
-网页的主题内容
-&lt;/body&gt;
-&lt;/html&gt;
-</code></pre><h1><span id="html标签">HTML标签</span></h1><h2><span id="标题">标题</span></h2><pre><code>&lt;h1&gt;一级标题&lt;/h1&gt;
-&lt;h2&gt;二级标题&lt;/h2&gt;
-</code></pre><p>依此类推，一共有6级标题</p>
-<h2><span id="段落">段落</span></h2><pre><code>&lt;body&gt;
-&lt;p&gt;段落内容&lt;/p&gt;
-&lt;/body&gt;
-</code></pre><h2><span id="换行与水平线">换行与水平线</span></h2><p>换行符：<code>&lt;br&gt;</code><br>水平线：<code>&lt;hr&gt;</code></p>
-<h2><span id="文本格式化标签">文本格式化标签</span></h2><p><img src="/images/16.jpg" alt></p>
-<h1><span id="图片的基本使用">图片的基本使用</span></h1><h2><span id="图片的标签">图片的标签</span></h2><pre><code>&lt;img src=&quot;图片的地址&quot; alt=&quot;图片无法加载时显示的内容&quot; tittle=&quot;鼠标悬停时显示&quot; width=&quot; &quot; height=&quot; &quot;&gt;
-</code></pre><p>如果只设置了width或height中的一个，另一个会自动等比例缩放。</p>
-<h2><span id="路径">路径</span></h2><h2><span id="绝对路径">绝对路径</span></h2><p>指根目录下的绝对位置，可以直接到达目标位置，通常从盘符开始的路径。<br>例如：<br>     盘符开头：<code>D:\example\images\1.jpg</code><br>     完整网络地址：<code>https://example.com/images/1.jpg</code></p>
-<h2><span id="相对路径">相对路径</span></h2><h3><span id="同级与下级">同级与下级</span></h3><p>  同级：<code>&lt;img src=&quot;1.jpg&quot;&gt;</code><br>  下级：<code>&lt;img src=&quot;images/1.jpg&quot;&gt;</code></p>
-<h3><span id="上级">上级</span></h3><p>  <code>&lt;img src=&quot;../images/1.jpg&quot;&gt;</code></p>
-<h1><span id="音频标签">音频标签</span></h1><p> 代码：<code>&lt;audio src=&quot;./music.mp3&quot; controls&gt;&lt;/audio&gt;</code><br> <img src="/images/18.png" alt></p>
-<h1><span id="视频标签">视频标签</span></h1><p> 代码：<code>&lt;video src=&quot;./video.mp4&quot; controls&gt;&lt;/video&gt;</code><br> <img src="/images/19.png" alt></p>
-<h1><span id="超链接">超链接</span></h1><p> 代码：<code>&lt;a href=&quot;./目标网页.html&quot;&gt;</code>目标网页<code>&lt;/a&gt;</code><br> <code>&lt;a href=&quot;#&quot;&gt;</code>空连接，不知道到哪里去<code>&lt;/a&gt;</code><br> target属性值：<code>&lt;a href=&quot;./网页地址.html&quot; target=&quot; &quot;&gt;&lt;/a&gt;</code><br> <img src="/images/20.png" alt></p>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>HTML</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>绫华！</title>
-    <url>/2023/05/27/hello-world/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="/images/1.jpg" alt></p>
-]]></content>
-      <categories>
-        <category>二次元</category>
-      </categories>
-      <tags>
-        <tag>图片</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CSS进阶</title>
-    <url>/2023/07/23/7/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1><span id="css进阶">CSS进阶</span></h1><h2><span id="选择器">选择器</span></h2><h3><span id="后代">后代</span></h3><p>选择器语法：选择器1 选择器2{CSS}</p>
-<p><hr><br>结果：在选择器1所找到标签的后的中，找到满足选择器2的标签，设置样式。</p>
-<p><hr><br>注意点：</p>
-<ol>
-    <li>后代选择器中，选择器与选择器要用空格隔开。</li>
-</ol>
-
-<h3><span id="子代">子代</span></h3><p>选择器语法：选择器1&gt;选择器2{CSS}</p>
-<p><hr><br>结果：</p>
-<p><ul>
-    <li>在选择器1所找到标签的子代中，找到满足选择器2的标签，设置样式。</li>
-</ul></p>
-<p><hr><br>注意点：</p>
-<ol>
-    <li>子代只包括：儿子。</li>
-    <li>子代选择器中，选择器与选择器用>隔开</li>
-</ol>
-
-<h3><span id="并集">并集</span></h3><p>作用：同时选择多个标签，设置相同的格式。</p>
-<p><hr><br>选择器语法：选择器1，选择器2{CSS}</p>
-<p><hr><br>结果：</p>
-<p><ul>
-    <li>找到选择器1和2选中的标签，设置样式。</li>
-</ul></p>
-<hr>
-
-<p>注意点：</p>
-<ol>
-    <li>并集选择器中的每组选择器之间用，隔开</li>
-    <li>并集选择器中的每组选择器可以是基础选择器或者复合选择器</li>
-    <li>并集选择器中的每组选择器通常一行写一个，提高代码可读性</li>
-</ol>
-
-<h3><span id="交集">交集</span></h3><p>作用：选择页面当中同时满足多个选择器的标签。</p>
-<p><hr><br>选择器语法：选择器1.选择器2{CSS}</p>
-<p><hr><br>结果：找到页面中既能被选择器1选中，又能被选择器2选中的标签，设置样式。</p>
-<p><hr><br>注意点：</p>
-<ol>
-    <li>交集选择器中的选择器是紧挨着的，没有东西分隔。</li>
-    <li>交集选择器中如果有标签选择器，标签选择器必须写在最前面</li>
-</ol>
-
-<h3><span id="伪类">伪类</span></h3><p>作用：选中鼠标悬停在元素上的状态，设置样式。</p>
-<p><hr><br>选择器语法：a:hover{CSS}</p>
-<p><hr><br>注意点：</p>
-<ol>
-    <li>伪类选择器选中的元素的某种状态。</li>
-</ol>
-
-<h2><span id="emmet语法">Emmet语法</span></h2><table border="1">
-    <tr>
-        <th>记忆</th>
-        <th>示例</th>
-        <th>效果</th>
-    </tr>
-    <tr>
-        <th>类选择器</th>
-        <th>.red</th>
-        <th>div class="red" /div</th>
-    </tr>
-    <tr>
-        <th>id选择器</th>
-        <th>#one</th>
-        <th>div id="one" /div</th>
-    </tr>
-    <tr>
-        <th>交集选择器</th>
-        <th>p.red#one</th>
-        <th>p class="red" id="one" /p</th>
-    </tr>
-    <tr>
-        <th>子代选择器</th>
-        <th>ul>li</th>
-        <th>ul li /li /ul</th>
-    </tr>
-    <tr>
-        <th>内部文本</th>
-        <th>ul>li{内部文本}</th>
-        <th>ul li 内部文本 /li /ul</th>
-    </tr>
-    <tr>
-        <th>创建多个</th>
-        <th>ul>li*3</th>
-        <th>ul li /li li /li li /li /ul</th>
-    </tr>
-</table>]]></content>
-      <categories>
-        <category>前端</category>
-      </categories>
-      <tags>
-        <tag>CSS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>随便发点</title>
-    <url>/2023/06/20/1/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="/images/12.jpg" alt><br><img src="/images/13.jpg" alt><br><img src="/images/14.jpg" alt><br><img src="/images/15.jpg" alt><br><img src="/images/17.jpg" alt><br><img src="/images/21.jpg" alt></p>
-]]></content>
-      <categories>
-        <category>二次元</category>
-      </categories>
-      <tags>
-        <tag>图片</tag>
       </tags>
   </entry>
   <entry>
@@ -979,108 +808,304 @@ void main()
       </tags>
   </entry>
   <entry>
-    <title>html(二)</title>
-    <url>/2023/06/24/2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1><span id="列表的应用场景">列表的应用场景</span></h1><h2><span id="1无序列表">1.无序列表</span></h2><p>代码：</p>
-<pre><code>&lt;body&gt;
-    &lt;ul&gt;
-    &lt;li&gt;列表内容&lt;/li&gt;
-    &lt;/ul&gt;
-&lt;/body&gt;
-</code></pre><p>场景：在网页中表示一组无顺序之分的列表，如：新闻列表</p>
-<table border="1">
-<caption>标签组成</caption>
-     <tr>
-        <th>标签名</th>
-        <th>说明</th>
+    <title>css基础</title>
+    <url>/2023/07/02/5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1><span id="css基础">css基础</span></h1><h2><span id="css常见引入方式">css常见引入方式</span></h2><table border="1">
+    <tr>
+       <th>引入方式</th>
+       <th>书写位置</th>
+       <th>作用范围</th>
+       <th>使用场景</th>
     </tr>
     <tr>
-        <th>ul</th>
-        <th>表示无序列表的整体，用于包裹li标签</th>
+       <th>内嵌式</th>
+       <th>css写在style标签内</th>
+       <th>当前页面</th>
+       <th>小案例</th>
     </tr>
     <tr>
-        <th>li </th>
-        <th>表示无序标签的每一项，用于包含每一行内容</th>
+       <th>外嵌式</th>
+       <th>CSS单独写在css文件中,通过link标签引入</th>
+       <th>多个页面</th>
+       <th>项目中</th>
     </tr>
-</table> 
+    <tr>
+       <th>行内式</th>
+       <th>CSS写在标签的style属性中</th>
+       <th>当前页面</th>
+       <th>配合js使用</th>
+    </tr>
+</table>
 
-<p>显示特点：列表的每一项前默认显示圆点标识<br>注意点：</p>
+<h2><span id="选择器">选择器</span></h2><h3><span id="标签">标签</span></h3><p>以标签名命名的选择器,选中所有的这个标签都生效CSS。</p>
+<h3><span id="类">类</span></h3><p>结构：.类名{ CSS属性名：属性值}<br>作用：通过类名，找到页面中所有带这个类名的标签<br>注意点：</p>
+<ol>
+ <li>所有标签上都有class属性，class属性的属性值为类名(类似于名字)</li>
+ <li>类名可以有数字，字母，下划线组成，但不能以数字和中划线开头</li>
+ <li>一个标签有多个类名，类名之间用空格分开</li>
+ <li>类名可以重复，一个类选择器可以同时选中多个标签</li>
+</ol>
+
+<h3><span id="id">id</span></h3><p>结构：#属性名{ CSS属性名：属性值}<br>一个网页中只能存在一个id</p>
+<h3><span id="通配符">通配符</span></h3><p>结构:*{CSS属性性名：属性值}<br>通配符会作用在该网页的全部标签上。</p>
+<h2><span id="文字样式">文字样式</span></h2><p>字体大小：font-size<br>取值：大小+px；<br>字体粗细：font-weight<br>取值：</p>
 <ul>
- <li>ul标签只能包含li标签</li>
- <li>li标签可以包含任意内容</li>
+    <li>关键字：</li>
+     <table>
+     <tr>
+        <th>正常</th>
+        <th>normal</th>
+    </tr>
+    <tr>
+       <th>加粗</th>
+       <th>blod</th>
+    </tr>
+    </table>
+    <li>纯数字：100-900的整百数：</li>
+    <table>
+    <tr>
+       <th>正常</th>
+       <th>400</th>
+    </tr>
+    <tr>
+       <th>加粗</th>
+       <th>700</th>
+    </tr>
+    </table>
 </ul>
 
-<h2><span id="2有序列表">2.有序列表</span></h2><p>代码：</p>
-<pre><code>&lt;body&gt;
-     &lt;ol&gt;
-     &lt;li&gt;列表内容&lt;/li&gt;
-     &lt;/ol&gt;
-&lt;/body&gt;
-</code></pre><p>场景：在网页中表示一组有顺序之分的列表，如：排行榜</p>
-<table border="1">
-<caption>标签组成</caption>
-     <tr>
-        <th>标签名</th>
-        <th>说明</th>
-    </tr>
-    <tr>
-        <th>ol</th>
-        <th>表示有序列表的整体，用于包裹li标签</th>
-    </tr>
-    <tr>
-        <th>li </th>
-        <th>表示有序标签的每一项，用于包含每一行内容</th>
-    </tr>
-</table> 
-
-<p>显示特点：列表的每一项前默认显示序号标识<br>注意点：</p>
-<ul>     
-    <li>ol标签只允许包含li标签</li>
-    <li>li标签可以包含任意内容</li>
-</ul>
-
-<h2><span id="3自定义列表">3.自定义列表</span></h2><p>代码：</p>
-<pre><code>&lt;body&gt;
-     &lt;dl&gt;
-           &lt;dt&gt;标签内容&lt;/dt&gt;
-           &lt;dd&gt;标签内容&lt;/dd&gt;
-     &lt;/dl&gt;
-&lt;/body&gt;
-</code></pre><p>场景：在网页的底部导航中通常会使用自定义列表实现。</p>
-<table border="1">
-<caption>标签组成</caption>
-     <tr>
-        <th>标签名</th>
-        <th>说明</th>
-    </tr>
-    <tr>
-        <th>dl</th>
-        <th>表示自定义列表整体，用于包裹dt/dd标签</th>
-    </tr>
-    <tr>
-        <th>dl</th>
-        <th>表示自定义列表的主题</th>
-    </tr>
-    <tr>
-        <th>dd</th>
-        <th>表示自定义列表的针对主题的每一项内容</th>
-    </tr>
-</table>  
-
-<p>显示特点：dd标签会默认显示缩进效果<br>注意点：</p>
+<h3><span id="font复合属性">font复合属性</span></h3><p>属性名：font(复合属性)<br>取值：font:style weight size family<br>只能省略前两个，相当设置了默认值</p>
+<h2><span id="文本标签">文本标签</span></h2><h3><span id="文本缩进">文本缩进</span></h3><p>属性名：text-indent<br>取值：</p>
 <ul>
-     <li>dl标签只允许包含dt/dd标签</li>
-     <li>dt/dd标签可以包含任意内容</li>
+    <li>数字+px</li>
+    <li>数字+em(推荐：1em=当前标签的font-size的大小)</li>
 </ul>
 
+<p>代码：</p>
+<pre><code>p&#123;
+    text-indent:
+&#125;
+</code></pre><h3><span id="水平对齐">水平对齐</span></h3><p>属性名：text-align<br>取值：</p>
+<table>
+    <tr>
+       <th>属性值</th>
+       <th>效果</th>
+    </tr>
+    <tr>
+       <th>left</th>
+       <th>左对齐</th>
+    </tr>
+    <tr>   
+       <th>center</th>
+       <th>居中对齐</th>
+    </tr>
+    <tr>
+       <th>right</th>
+       <th>右对齐</th>
+    </tr>
+</table>
 
+<h3><span id="文本修饰">文本修饰</span></h3><p>属性名：text-decoration<br>取值：</p>
+<table>
+    <tr>
+       <th>属性值</th>
+       <th>效果</th>
+    </tr>
+    <tr>
+       <th>underline</th>
+       <th>下划线(常用)</th>
+    </tr>
+    <tr>   
+       <th>line-through</th>
+       <th>删除线</th>
+    </tr>
+    <tr>
+       <th>overline</th>
+       <th>上划线</th>
+    </tr>
+    <tr>
+       <th>none</th>
+       <th>无装饰线</th>
+    </tr>
+</table>
 
+<h2><span id="拓展">拓展</span></h2><p>水平居中：margin:0 auto</p>
+<p>层叠性：同一属性值，后写的会覆盖先写的。</p>
+]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CSS进阶</title>
+    <url>/2023/07/23/7/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1><span id="css进阶">CSS进阶</span></h1><h2><span id="选择器">选择器</span></h2><h3><span id="后代">后代</span></h3><p>选择器语法：选择器1 选择器2{CSS}<br><br><br>结果：在选择器1所找到标签的后的中，找到满足选择器2的标签，设置样式。<br><br><br>注意点：</p>
+<ol>
+    <li>后代选择器中，选择器与选择器要用空格隔开。</li>
+</ol>
+
+<h3><span id="子代">子代</span></h3><p>选择器语法：选择器1&gt;选择器2{CSS}<br><br><br>结果：</p>
+<p><ul>
+    <li>在选择器1所找到标签的子代中，找到满足选择器2的标签，设置样式。</li>
+</ul><br><br><br>注意点：</p>
+<ol>
+    <li>子代只包括：儿子。</li>
+    <li>子代选择器中，选择器与选择器用>隔开</li>
+</ol>
+
+<h3><span id="并集">并集</span></h3><p>作用：同时选择多个标签，设置相同的格式。<br><br><br>选择器语法：选择器1，选择器2{CSS}<br><br><br>结果：</p>
+<p><ul>
+    <li>找到选择器1和2选中的标签，设置样式。</li>
+</ul><br><br></p>
+<p>注意点：</p>
+<ol>
+    <li>并集选择器中的每组选择器之间用，隔开</li>
+    <li>并集选择器中的每组选择器可以是基础选择器或者复合选择器</li>
+    <li>并集选择器中的每组选择器通常一行写一个，提高代码可读性</li>
+</ol>
+
+<h3><span id="交集">交集</span></h3><p>作用：选择页面当中同时满足多个选择器的标签。<br><br><br>选择器语法：选择器1.选择器2{CSS}<br><br><br>结果：找到页面中既能被选择器1选中，又能被选择器2选中的标签，设置样式。<br><br><br>注意点：</p>
+<ol>
+    <li>交集选择器中的选择器是紧挨着的，没有东西分隔。</li>
+    <li>交集选择器中如果有标签选择器，标签选择器必须写在最前面</li>
+</ol>
+
+<h3><span id="伪类">伪类</span></h3><p>作用：选中鼠标悬停在元素上的状态，设置样式。<br><br><br>选择器语法：a:hover{CSS}<br><br><br>注意点：</p>
+<ol>
+    <li>伪类选择器选中的元素的某种状态。</li>
+</ol>
+
+<h2><span id="emmet语法">Emmet语法</span></h2><table border="1">
+    <tr>
+        <th>记忆</th>
+        <th>示例</th>
+        <th>效果</th>
+    </tr>
+    <tr>
+        <th>类选择器</th>
+        <th>.red</th>
+        <th>div class="red" /div</th>
+    </tr>
+    <tr>
+        <th>id选择器</th>
+        <th>#one</th>
+        <th>div id="one" /div</th>
+    </tr>
+    <tr>
+        <th>交集选择器</th>
+        <th>p.red#one</th>
+        <th>p class="red" id="one" /p</th>
+    </tr>
+    <tr>
+        <th>子代选择器</th>
+        <th>ul>li</th>
+        <th>ul li /li /ul</th>
+    </tr>
+    <tr>
+        <th>内部文本</th>
+        <th>ul>li{内部文本}</th>
+        <th>ul li 内部文本 /li /ul</th>
+    </tr>
+    <tr>
+        <th>创建多个</th>
+        <th>ul>li*3</th>
+        <th>ul li /li li /li li /li /ul</th>
+    </tr>
+</table>
+
+<h2><span id="背景">背景</span></h2><h3><span id="背景色">背景色</span></h3><p>属性名：background-color(bgc)<br><br><br>属性值：</p>
+<p><ul>
+    <li>颜色取值：关键字，rgb表示法，rgba表示法，十六进制</li>
+</ul><br><br><br>注意点：</p>
+<p><ul>
+    <li>背景颜色默认值是透明：rgba(0,0,0,0),transparent</li>
+    <li>背景颜色不会影响盒子大小，并且能看清盒子位置，一般布局中会习惯先给盒子设置背景颜色</li>
+</ul><br><br></p>
+<h3><span id="背景图">背景图</span></h3><p>属性名：background-img(bgi)<br><br><br>属性值：<code>background-image:url(&quot;图片的路径&quot;)</code><br><br><br>注意点：</p>
+<p><ul>
+    <li>背景图片中url可以省略引号</li>
+    <li>背景默认是在水平和竖直方向上平铺</li>
+    <li>背景图片仅仅是指给盒子起到修饰效果，类似于背景颜色，不能改变盒子大小</li>
+</ul><br><br></p>
+<h3><span id="背景平铺">背景平铺</span></h3><p>属性名：background-repeat(bgr)<br><br><br>属性值：</p>
+<table border="1">
+    <tr>
+        <th>取值</th>
+        <th>效果</th>
+    </tr>
+    <tr>
+        <th>repeat</th>
+        <th>（默认值）水平和竖直方向上平铺</th>
+    </tr>
+    <tr>
+        <th>no-repeat</th>
+        <th>不平铺</th>
+    </tr>
+    <tr>
+        <th>repeat-x</th>
+        <th>水平方向上平铺</th>
+    </tr>
+    <tr>
+        <th>repeat-y</th>
+        <th>竖直方向上平铺</th>
+    </tr>
+</table>]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>html基础知识(一)</title>
+    <url>/2023/06/07/html/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1><span id="html基本框架">HTML基本框架</span></h1><p>代码：</p>
+<pre><code>&lt;html&gt;
+&lt;head&gt;
+&lt;tittle&gt;网页的标题&lt;/tittle&gt;
+&lt;/head&gt;
+&lt;body&gt;
+网页的主题内容
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre><h1><span id="html标签">HTML标签</span></h1><h2><span id="标题">标题</span></h2><pre><code>&lt;h1&gt;一级标题&lt;/h1&gt;
+&lt;h2&gt;二级标题&lt;/h2&gt;
+</code></pre><p>依此类推，一共有6级标题</p>
+<h2><span id="段落">段落</span></h2><pre><code>&lt;body&gt;
+&lt;p&gt;段落内容&lt;/p&gt;
+&lt;/body&gt;
+</code></pre><h2><span id="换行与水平线">换行与水平线</span></h2><p>换行符：<code>&lt;br&gt;</code><br>水平线：<code>&lt;hr&gt;</code></p>
+<h2><span id="文本格式化标签">文本格式化标签</span></h2><p><img src="/images/16.jpg" alt></p>
+<h1><span id="图片的基本使用">图片的基本使用</span></h1><h2><span id="图片的标签">图片的标签</span></h2><pre><code>&lt;img src=&quot;图片的地址&quot; alt=&quot;图片无法加载时显示的内容&quot; tittle=&quot;鼠标悬停时显示&quot; width=&quot; &quot; height=&quot; &quot;&gt;
+</code></pre><p>如果只设置了width或height中的一个，另一个会自动等比例缩放。</p>
+<h2><span id="路径">路径</span></h2><h2><span id="绝对路径">绝对路径</span></h2><p>指根目录下的绝对位置，可以直接到达目标位置，通常从盘符开始的路径。<br>例如：<br>     盘符开头：<code>D:\example\images\1.jpg</code><br>     完整网络地址：<code>https://example.com/images/1.jpg</code></p>
+<h2><span id="相对路径">相对路径</span></h2><h3><span id="同级与下级">同级与下级</span></h3><p>  同级：<code>&lt;img src=&quot;1.jpg&quot;&gt;</code><br>  下级：<code>&lt;img src=&quot;images/1.jpg&quot;&gt;</code></p>
+<h3><span id="上级">上级</span></h3><p>  <code>&lt;img src=&quot;../images/1.jpg&quot;&gt;</code></p>
+<h1><span id="音频标签">音频标签</span></h1><p> 代码：<code>&lt;audio src=&quot;./music.mp3&quot; controls&gt;&lt;/audio&gt;</code><br> <img src="/images/18.png" alt></p>
+<h1><span id="视频标签">视频标签</span></h1><p> 代码：<code>&lt;video src=&quot;./video.mp4&quot; controls&gt;&lt;/video&gt;</code><br> <img src="/images/19.png" alt></p>
+<h1><span id="超链接">超链接</span></h1><p> 代码：<code>&lt;a href=&quot;./目标网页.html&quot;&gt;</code>目标网页<code>&lt;/a&gt;</code><br> <code>&lt;a href=&quot;#&quot;&gt;</code>空连接，不知道到哪里去<code>&lt;/a&gt;</code><br> target属性值：<code>&lt;a href=&quot;./网页地址.html&quot; target=&quot; &quot;&gt;&lt;/a&gt;</code><br> <img src="/images/20.png" alt></p>
 ]]></content>
       <categories>
         <category>前端</category>
       </categories>
       <tags>
         <tag>HTML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>绫华！</title>
+    <url>/2023/05/27/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="/images/1.jpg" alt></p>
+]]></content>
+      <categories>
+        <category>二次元</category>
+      </categories>
+      <tags>
+        <tag>图片</tag>
       </tags>
   </entry>
 </search>
