@@ -361,8 +361,8 @@
 		
 		<div class="kira-post-meta kira-rainbow" style="margin:10px 0!important;">
 			<a><i class="kirafont icon-calendar-fill"></i>2023年07月23日</a>
-			<a><i class="kirafont icon-edit-fill"></i>951 字</a>
-			<a><i class="kirafont icon-time-circle-fill"></i>大概 4 分钟</a>
+			<a><i class="kirafont icon-edit-fill"></i>1.4k 字</a>
+			<a><i class="kirafont icon-time-circle-fill"></i>大概 6 分钟</a>
 		</div>
 		<h1><span id="css进阶">CSS进阶</span></h1><h2><span id="选择器">选择器</span></h2><h3><span id="后代">后代</span></h3><p>选择器语法：选择器1 选择器2{CSS}</p>
 <p>结果：在选择器1所找到标签的后的中，找到满足选择器2的标签，设置样式。</p>
@@ -533,6 +533,77 @@
         </li></ol>
     </li>
 </ul>
+
+<h2><span id="显示模式">显示模式</span></h2><h3><span id="块">块</span></h3><p>显示特点：</p>
+<ol>
+    <li>独占一行（一行只显示一个）</li>
+    <li>宽度默认是父级元素的宽度，高度默认由内容撑开。</li>
+    <li>可以设置宽高</li>
+</ol>
+
+<p>代表标签：div,p,h系列,ul,li,dl,dt,dd,form,header,nav,footer…</p>
+<h3><span id="行内元素">行内元素</span></h3><p>显示特点：</p>
+<ol>
+    <li>一行可以显示多个</li>
+    <li>宽度和高度默认由内容撑开</li>
+    <li>不可以设置宽高</li>
+</ol>
+
+<p>代表标签：a,span,b,u,i,s,strong,ins,em,del…</p>
+<h3><span id="行内块">行内块</span></h3><p>显示特点：</p>
+<ol>
+    <li>一行可以显示多个</li>
+    <li>可以设置宽高</li>
+</ol>
+
+<p>代表标签：</p>
+<ul>
+    <li>input,textarea,button,select...</li>
+    <li>特殊情况：img标签有行内块元素特点，但是Chrome调试工具中显示结果是inline</li>
+</ul>
+
+<h3><span id="转换">转换</span></h3><p>目的：改变元素默认显示特点，让元素符合布局要求</p>
+<p>语法：</p>
+<table border="1">
+    <tr>
+        <th>属性</th>
+        <th>效果</th>
+        <th>使用频率</th>
+    </tr>
+    <tr>
+        <th>display:block</th>
+        <th>转换成块级元素</th>
+        <th>较多</th>
+    </tr>
+    <tr>
+        <th>display:inline-block</th>
+        <th>转换成行内快元素</th>
+        <th>较多</th>
+    </tr>
+    <tr>
+        <th>display:inline</th>
+        <th>转换成行内元素</th>
+        <th>较少</th>
+    </tr>
+</table>
+
+<h3><span id="标签嵌套">标签嵌套</span></h3><p>1.块级元素一般作为大容器，可以嵌套：文本，块级元素，行内元素，行内块元素等等…<br>    但是：p标签不能嵌套div,p,h标签<br>2.a标签内可以嵌套任意元素<br>    但是：a标签不能嵌套a标签</p>
+<h2><span id="组成">组成</span></h2><p>CSS中规定每个盒子分别由：内容区域(content),内边距区域(padding),边框区域(border),外边框区域(margin)构成</p>
+<h3><span id="border使用方法">border使用方法</span></h3><p>属性值：单个取值连写，用空格隔开<br>如：border:10px solid red;</p>
+<p>快捷键：bd+tab</p>
+<h3><span id="padding">padding</span></h3><p>属性值:</p>
+<ul>
+    <li>padding: 10px 20px 30px 40px;(四值：上 右 下 左)</li>
+    <li>padding: 10px 20px 30px;(三值：上 左右 下)</li>
+    <li>padding: 10px 80px(两值：上下 左右)</li>
+</ul>
+
+<h3><span id="内减模式">内减模式</span></h3><p>自动内减：</p>
+<ul>
+    <li>操作方法：给盒子设置属性box-sizing: border-box;即可</li>
+    <li>优点：浏览器会自动计算多余大小，自动在内容中减去</li>
+</ul>
+
 	</article>
 
 	 
