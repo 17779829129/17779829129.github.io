@@ -361,8 +361,8 @@
 		
 		<div class="kira-post-meta kira-rainbow" style="margin:10px 0!important;">
 			<a><i class="kirafont icon-calendar-fill"></i>2023年07月23日</a>
-			<a><i class="kirafont icon-edit-fill"></i>1.4k 字</a>
-			<a><i class="kirafont icon-time-circle-fill"></i>大概 6 分钟</a>
+			<a><i class="kirafont icon-edit-fill"></i>1.8k 字</a>
+			<a><i class="kirafont icon-time-circle-fill"></i>大概 7 分钟</a>
 		</div>
 		<h1><span id="css进阶">CSS进阶</span></h1><h2><span id="选择器">选择器</span></h2><h3><span id="后代">后代</span></h3><p>选择器语法：选择器1 选择器2{CSS}</p>
 <p>结果：在选择器1所找到标签的后的中，找到满足选择器2的标签，设置样式。</p>
@@ -604,6 +604,93 @@
     <li>优点：浏览器会自动计算多余大小，自动在内容中减去</li>
 </ul>
 
+
+<h2><span id="css浮动">CSS浮动</span></h2><h3><span id="结构伪类">结构伪类</span></h3><p>目标：能够使用结构伪类选择器在HTML中定位元素</p>
+<p>1.作用与优势</p>
+<ol>
+    <li>作用：根据元素在HTML中的结构关系查找元素</li>
+    <li>优势：减少对于HTML中类的依赖，有利于保持代码整洁</li>
+    <li>场景：常用于查找某父级选择器中的子元素</li>
+</ol>
+
+<p>2.选择器</p>
+<table>
+    <tr>
+        <th>选择器</th>
+        <th>说明</th>
+    </tr>
+    <tr>
+        <th>E:first-child{}</th>
+        <th>匹配父级元素的第一个子元素，并且是E元素</th>
+    </tr>
+    <tr>
+        <th>E:last-child{}</th>
+        <th>匹配父级元素的最后一个子元素，并且是E元素</th>
+    </tr>
+    <tr>
+        <th>E:nth-child(n){}</th>
+        <th>匹配父级元素中的第n个元素，并且是E元素</th>
+    </tr>
+    <tr>
+        <th>E:nth-last-child(n){}</th>
+        <th>匹配父级元素中的倒数第n个元素，并且是E元素</th>
+    </tr>
+</table>
+
+<p>3.公式</p>
+<p>n的注意点：</p>
+<ul>
+    <li>n为：0,1,2,3,4,5,6...</li>
+    <li>通过n可以组成常见公式</li>
+</ul>
+
+<table>
+    <tr>
+        <th>功能</th>
+        <th>公式</th>
+    </tr>
+    <tr>
+        <th>偶数</th>
+        <th>2n,even</th>
+    </tr>
+    <tr>
+        <th>奇数</th>
+        <th>2n+1,2n-1,odd</th>
+    </tr>
+    <tr>
+        <th>找到前5个</th>
+        <th>-n+5</th>
+    </tr>
+    <tr>
+        <th>找到从第5个往后</th>
+        <th>n+5</th>
+    </tr>
+</table>
+
+<h3><span id="伪元素">伪元素</span></h3><p>伪元素：一般页面中的非主体内容可以使用为元素</p>
+<p>种类：</p>
+<table>
+    <tr>
+        <th>伪元素</th>
+        <th>作用</th>
+    </tr>
+    <tr>
+        <th>::before</th>
+        <th>在父元素内容的最前添加一个伪元素</th>
+    </tr>
+    <tr>
+        <th>::after</th>
+        <th>在父元素内容的最后添加一个伪元素</th>
+    </tr>
+</table>
+
+<p>注意点：</p>
+<ol>
+    <li>必须设置content属性才能生效</li>
+    <li>伪元素必须是行内元素</li>
+</ol>
+
+
 	</article>
 
 	 
@@ -618,7 +705,7 @@
   
 	<div class="kira-post-nav">
 		<nav class="post-nav">
-			      
+			  
 			<!-- 先找到与当前文字相同的目录 -->
 			               
 			<!-- 在找到当前文章所在的 index -->
@@ -628,7 +715,7 @@
 				<span>上一章</span>
 				<a href="/2023/07/02/5/"> css基础</a>
 			</div>
-			                  
+			                      
 		</nav>
 	</div>
 	
