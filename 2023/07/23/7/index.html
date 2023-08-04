@@ -361,8 +361,8 @@
 		
 		<div class="kira-post-meta kira-rainbow" style="margin:10px 0!important;">
 			<a><i class="kirafont icon-calendar-fill"></i>2023年07月23日</a>
-			<a><i class="kirafont icon-edit-fill"></i>1.8k 字</a>
-			<a><i class="kirafont icon-time-circle-fill"></i>大概 7 分钟</a>
+			<a><i class="kirafont icon-edit-fill"></i>1.9k 字</a>
+			<a><i class="kirafont icon-time-circle-fill"></i>大概 8 分钟</a>
 		</div>
 		<h1><span id="css进阶">CSS进阶</span></h1><h2><span id="选择器">选择器</span></h2><h3><span id="后代">后代</span></h3><p>选择器语法：选择器1 选择器2{CSS}</p>
 <p>结果：在选择器1所找到标签的后的中，找到满足选择器2的标签，设置样式。</p>
@@ -690,6 +690,34 @@
     <li>伪元素必须是行内元素</li>
 </ol>
 
+<h3><span id="清除浮动">清除浮动</span></h3><p>1.额外标签<br>操作：</p>
+<ol>
+    <li>在父级元素内容的最后添加一个块级元素</li>
+    <li>给添加的块级元素设置clear:both</li>
+</ol>
+
+<p>2.单伪元素</p>
+<p>基本写法：<br><code>.clearfix::after&#123;
+    content:&#39;&#39;;
+    display:block;
+    clear:both;
+&#125;</code></p>
+<p>补充写法：<br><code>.clearfix::after&#123;
+    content:&#39;&#39;;
+    display:block;
+    clear:both;
+    height:0;
+    visibility:hidden;
+&#125;</code></p>
+<p>3.双伪元素</p>
+<p>操作：<br><code>.clearfix::before
+ .claerfix::after&#123;
+    content:&#39;&#39;;
+    display:table;
+&#125;</code></p>
+<p>4.overflow</p>
+<p>操作：直接给父级元素设置<code>overflow:hidden;</code></p>
+<p>特点：方便。</p>
 
 	</article>
 
@@ -705,7 +733,7 @@
   
 	<div class="kira-post-nav">
 		<nav class="post-nav">
-			  
+			      
 			<!-- 先找到与当前文字相同的目录 -->
 			               
 			<!-- 在找到当前文章所在的 index -->
@@ -715,7 +743,7 @@
 				<span>上一章</span>
 				<a href="/2023/07/02/5/"> css基础</a>
 			</div>
-			                      
+			                  
 		</nav>
 	</div>
 	
