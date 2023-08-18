@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>随便发点</title>
+    <url>/2023/06/20/1/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="/images/12.jpg" alt><br><img src="/images/13.jpg" alt><br><img src="/images/14.jpg" alt><br><img src="/images/15.jpg" alt><br><img src="/images/17.jpg" alt><br><img src="/images/21.jpg" alt></p>
+]]></content>
+      <categories>
+        <category>二次元</category>
+      </categories>
+      <tags>
+        <tag>图片</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>html(二)</title>
     <url>/2023/06/24/2/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1><span id="列表的应用场景">列表的应用场景</span></h1><h2><span id="1无序列表">1.无序列表</span></h2><p>代码：</p>
@@ -106,18 +118,6 @@
       </tags>
   </entry>
   <entry>
-    <title>随便发点</title>
-    <url>/2023/06/20/1/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="/images/12.jpg" alt><br><img src="/images/13.jpg" alt><br><img src="/images/14.jpg" alt><br><img src="/images/15.jpg" alt><br><img src="/images/17.jpg" alt><br><img src="/images/21.jpg" alt></p>
-]]></content>
-      <categories>
-        <category>二次元</category>
-      </categories>
-      <tags>
-        <tag>图片</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>大一经历</title>
     <url>/2023/06/25/3/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="/images/30.jpg" alt> <img src="/images/31.jpg" alt><br><img src="/images/32.jpg" alt> <img src="/images/33.jpg" alt><br><img src="/images/34.jpg" alt> <img src="/images/35.jpg" alt><br><img src="/images/36.jpg" alt> <img src="/images/37.jpg" alt><br><img src="/images/38.jpg" alt> <img src="/images/39.jpg" alt><br><img src="/images/40.jpg" alt> <img src="/images/41.jpg" alt></p>
@@ -127,6 +127,138 @@
       </categories>
       <tags>
         <tag>图片</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>css基础</title>
+    <url>/2023/07/02/5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1><span id="css基础">css基础</span></h1><h2><span id="css常见引入方式">css常见引入方式</span></h2><table border="1">
+    <tr>
+       <th>引入方式</th>
+       <th>书写位置</th>
+       <th>作用范围</th>
+       <th>使用场景</th>
+    </tr>
+    <tr>
+       <th>内嵌式</th>
+       <th>css写在style标签内</th>
+       <th>当前页面</th>
+       <th>小案例</th>
+    </tr>
+    <tr>
+       <th>外嵌式</th>
+       <th>CSS单独写在css文件中,通过link标签引入</th>
+       <th>多个页面</th>
+       <th>项目中</th>
+    </tr>
+    <tr>
+       <th>行内式</th>
+       <th>CSS写在标签的style属性中</th>
+       <th>当前页面</th>
+       <th>配合js使用</th>
+    </tr>
+</table>
+
+<h2><span id="选择器">选择器</span></h2><h3><span id="标签">标签</span></h3><p>以标签名命名的选择器,选中所有的这个标签都生效CSS。</p>
+<h3><span id="类">类</span></h3><p>结构：.类名{ CSS属性名：属性值}<br>作用：通过类名，找到页面中所有带这个类名的标签<br>注意点：</p>
+<ol>
+ <li>所有标签上都有class属性，class属性的属性值为类名(类似于名字)</li>
+ <li>类名可以有数字，字母，下划线组成，但不能以数字和中划线开头</li>
+ <li>一个标签有多个类名，类名之间用空格分开</li>
+ <li>类名可以重复，一个类选择器可以同时选中多个标签</li>
+</ol>
+
+<h3><span id="id">id</span></h3><p>结构：#属性名{ CSS属性名：属性值}<br>一个网页中只能存在一个id</p>
+<h3><span id="通配符">通配符</span></h3><p>结构:*{CSS属性性名：属性值}<br>通配符会作用在该网页的全部标签上。</p>
+<h2><span id="文字样式">文字样式</span></h2><p>字体大小：font-size<br>取值：大小+px；<br>字体粗细：font-weight<br>取值：</p>
+<ul>
+    <li>关键字：</li>
+     <table>
+     <tr>
+        <th>正常</th>
+        <th>normal</th>
+    </tr>
+    <tr>
+       <th>加粗</th>
+       <th>blod</th>
+    </tr>
+    </table>
+    <li>纯数字：100-900的整百数：</li>
+    <table>
+    <tr>
+       <th>正常</th>
+       <th>400</th>
+    </tr>
+    <tr>
+       <th>加粗</th>
+       <th>700</th>
+    </tr>
+    </table>
+</ul>
+
+<h3><span id="font复合属性">font复合属性</span></h3><p>属性名：font(复合属性)<br>取值：font:style weight size family<br>只能省略前两个，相当设置了默认值</p>
+<h2><span id="文本标签">文本标签</span></h2><h3><span id="文本缩进">文本缩进</span></h3><p>属性名：text-indent<br>取值：</p>
+<ul>
+    <li>数字+px</li>
+    <li>数字+em(推荐：1em=当前标签的font-size的大小)</li>
+</ul>
+
+<p>代码：</p>
+<pre><code>p&#123;
+    text-indent:
+&#125;
+</code></pre><h3><span id="水平对齐">水平对齐</span></h3><p>属性名：text-align<br>取值：</p>
+<table>
+    <tr>
+       <th>属性值</th>
+       <th>效果</th>
+    </tr>
+    <tr>
+       <th>left</th>
+       <th>左对齐</th>
+    </tr>
+    <tr>   
+       <th>center</th>
+       <th>居中对齐</th>
+    </tr>
+    <tr>
+       <th>right</th>
+       <th>右对齐</th>
+    </tr>
+</table>
+
+<h3><span id="文本修饰">文本修饰</span></h3><p>属性名：text-decoration<br>取值：</p>
+<table>
+    <tr>
+       <th>属性值</th>
+       <th>效果</th>
+    </tr>
+    <tr>
+       <th>underline</th>
+       <th>下划线(常用)</th>
+    </tr>
+    <tr>   
+       <th>line-through</th>
+       <th>删除线</th>
+    </tr>
+    <tr>
+       <th>overline</th>
+       <th>上划线</th>
+    </tr>
+    <tr>
+       <th>none</th>
+       <th>无装饰线</th>
+    </tr>
+</table>
+
+<h2><span id="拓展">拓展</span></h2><p>水平居中：margin:0 auto</p>
+<p>层叠性：同一属性值，后写的会覆盖先写的。</p>
+]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>CSS</tag>
       </tags>
   </entry>
   <entry>
@@ -354,138 +486,6 @@
       </categories>
       <tags>
         <tag>HTML</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>css基础</title>
-    <url>/2023/07/02/5/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1><span id="css基础">css基础</span></h1><h2><span id="css常见引入方式">css常见引入方式</span></h2><table border="1">
-    <tr>
-       <th>引入方式</th>
-       <th>书写位置</th>
-       <th>作用范围</th>
-       <th>使用场景</th>
-    </tr>
-    <tr>
-       <th>内嵌式</th>
-       <th>css写在style标签内</th>
-       <th>当前页面</th>
-       <th>小案例</th>
-    </tr>
-    <tr>
-       <th>外嵌式</th>
-       <th>CSS单独写在css文件中,通过link标签引入</th>
-       <th>多个页面</th>
-       <th>项目中</th>
-    </tr>
-    <tr>
-       <th>行内式</th>
-       <th>CSS写在标签的style属性中</th>
-       <th>当前页面</th>
-       <th>配合js使用</th>
-    </tr>
-</table>
-
-<h2><span id="选择器">选择器</span></h2><h3><span id="标签">标签</span></h3><p>以标签名命名的选择器,选中所有的这个标签都生效CSS。</p>
-<h3><span id="类">类</span></h3><p>结构：.类名{ CSS属性名：属性值}<br>作用：通过类名，找到页面中所有带这个类名的标签<br>注意点：</p>
-<ol>
- <li>所有标签上都有class属性，class属性的属性值为类名(类似于名字)</li>
- <li>类名可以有数字，字母，下划线组成，但不能以数字和中划线开头</li>
- <li>一个标签有多个类名，类名之间用空格分开</li>
- <li>类名可以重复，一个类选择器可以同时选中多个标签</li>
-</ol>
-
-<h3><span id="id">id</span></h3><p>结构：#属性名{ CSS属性名：属性值}<br>一个网页中只能存在一个id</p>
-<h3><span id="通配符">通配符</span></h3><p>结构:*{CSS属性性名：属性值}<br>通配符会作用在该网页的全部标签上。</p>
-<h2><span id="文字样式">文字样式</span></h2><p>字体大小：font-size<br>取值：大小+px；<br>字体粗细：font-weight<br>取值：</p>
-<ul>
-    <li>关键字：</li>
-     <table>
-     <tr>
-        <th>正常</th>
-        <th>normal</th>
-    </tr>
-    <tr>
-       <th>加粗</th>
-       <th>blod</th>
-    </tr>
-    </table>
-    <li>纯数字：100-900的整百数：</li>
-    <table>
-    <tr>
-       <th>正常</th>
-       <th>400</th>
-    </tr>
-    <tr>
-       <th>加粗</th>
-       <th>700</th>
-    </tr>
-    </table>
-</ul>
-
-<h3><span id="font复合属性">font复合属性</span></h3><p>属性名：font(复合属性)<br>取值：font:style weight size family<br>只能省略前两个，相当设置了默认值</p>
-<h2><span id="文本标签">文本标签</span></h2><h3><span id="文本缩进">文本缩进</span></h3><p>属性名：text-indent<br>取值：</p>
-<ul>
-    <li>数字+px</li>
-    <li>数字+em(推荐：1em=当前标签的font-size的大小)</li>
-</ul>
-
-<p>代码：</p>
-<pre><code>p&#123;
-    text-indent:
-&#125;
-</code></pre><h3><span id="水平对齐">水平对齐</span></h3><p>属性名：text-align<br>取值：</p>
-<table>
-    <tr>
-       <th>属性值</th>
-       <th>效果</th>
-    </tr>
-    <tr>
-       <th>left</th>
-       <th>左对齐</th>
-    </tr>
-    <tr>   
-       <th>center</th>
-       <th>居中对齐</th>
-    </tr>
-    <tr>
-       <th>right</th>
-       <th>右对齐</th>
-    </tr>
-</table>
-
-<h3><span id="文本修饰">文本修饰</span></h3><p>属性名：text-decoration<br>取值：</p>
-<table>
-    <tr>
-       <th>属性值</th>
-       <th>效果</th>
-    </tr>
-    <tr>
-       <th>underline</th>
-       <th>下划线(常用)</th>
-    </tr>
-    <tr>   
-       <th>line-through</th>
-       <th>删除线</th>
-    </tr>
-    <tr>
-       <th>overline</th>
-       <th>上划线</th>
-    </tr>
-    <tr>
-       <th>none</th>
-       <th>无装饰线</th>
-    </tr>
-</table>
-
-<h2><span id="拓展">拓展</span></h2><p>水平居中：margin:0 auto</p>
-<p>层叠性：同一属性值，后写的会覆盖先写的。</p>
-]]></content>
-      <categories>
-        <category>前端</category>
-      </categories>
-      <tags>
-        <tag>CSS</tag>
       </tags>
   </entry>
   <entry>
@@ -912,54 +912,6 @@ void main()
       </tags>
   </entry>
   <entry>
-    <title>绫华！</title>
-    <url>/2023/05/27/hello-world/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="/images/1.jpg" alt></p>
-]]></content>
-      <categories>
-        <category>二次元</category>
-      </categories>
-      <tags>
-        <tag>图片</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>html基础知识(一)</title>
-    <url>/2023/06/07/html/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1><span id="html基本框架">HTML基本框架</span></h1><p>代码：</p>
-<pre><code>&lt;html&gt;
-&lt;head&gt;
-&lt;tittle&gt;网页的标题&lt;/tittle&gt;
-&lt;/head&gt;
-&lt;body&gt;
-网页的主题内容
-&lt;/body&gt;
-&lt;/html&gt;
-</code></pre><h1><span id="html标签">HTML标签</span></h1><h2><span id="标题">标题</span></h2><pre><code>&lt;h1&gt;一级标题&lt;/h1&gt;
-&lt;h2&gt;二级标题&lt;/h2&gt;
-</code></pre><p>依此类推，一共有6级标题</p>
-<h2><span id="段落">段落</span></h2><pre><code>&lt;body&gt;
-&lt;p&gt;段落内容&lt;/p&gt;
-&lt;/body&gt;
-</code></pre><h2><span id="换行与水平线">换行与水平线</span></h2><p>换行符：<code>&lt;br&gt;</code><br>水平线：<code>&lt;hr&gt;</code></p>
-<h2><span id="文本格式化标签">文本格式化标签</span></h2><p><img src="/images/16.jpg" alt></p>
-<h1><span id="图片的基本使用">图片的基本使用</span></h1><h2><span id="图片的标签">图片的标签</span></h2><pre><code>&lt;img src=&quot;图片的地址&quot; alt=&quot;图片无法加载时显示的内容&quot; tittle=&quot;鼠标悬停时显示&quot; width=&quot; &quot; height=&quot; &quot;&gt;
-</code></pre><p>如果只设置了width或height中的一个，另一个会自动等比例缩放。</p>
-<h2><span id="路径">路径</span></h2><h2><span id="绝对路径">绝对路径</span></h2><p>指根目录下的绝对位置，可以直接到达目标位置，通常从盘符开始的路径。<br>例如：<br>     盘符开头：<code>D:\example\images\1.jpg</code><br>     完整网络地址：<code>https://example.com/images/1.jpg</code></p>
-<h2><span id="相对路径">相对路径</span></h2><h3><span id="同级与下级">同级与下级</span></h3><p>  同级：<code>&lt;img src=&quot;1.jpg&quot;&gt;</code><br>  下级：<code>&lt;img src=&quot;images/1.jpg&quot;&gt;</code></p>
-<h3><span id="上级">上级</span></h3><p>  <code>&lt;img src=&quot;../images/1.jpg&quot;&gt;</code></p>
-<h1><span id="音频标签">音频标签</span></h1><p> 代码：<code>&lt;audio src=&quot;./music.mp3&quot; controls&gt;&lt;/audio&gt;</code><br> <img src="/images/18.png" alt></p>
-<h1><span id="视频标签">视频标签</span></h1><p> 代码：<code>&lt;video src=&quot;./video.mp4&quot; controls&gt;&lt;/video&gt;</code><br> <img src="/images/19.png" alt></p>
-<h1><span id="超链接">超链接</span></h1><p> 代码：<code>&lt;a href=&quot;./目标网页.html&quot;&gt;</code>目标网页<code>&lt;/a&gt;</code><br> <code>&lt;a href=&quot;#&quot;&gt;</code>空连接，不知道到哪里去<code>&lt;/a&gt;</code><br> target属性值：<code>&lt;a href=&quot;./网页地址.html&quot; target=&quot; &quot;&gt;&lt;/a&gt;</code><br> <img src="/images/20.png" alt></p>
-]]></content>
-      <categories>
-        <category>前端</category>
-      </categories>
-      <tags>
-        <tag>HTML</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CSS进阶</title>
     <url>/2023/07/23/7/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1><span id="css进阶">CSS进阶</span></h1><h2><span id="选择器">选择器</span></h2><h3><span id="后代">后代</span></h3><p>选择器语法：选择器1 选择器2{CSS}</p>
@@ -1325,6 +1277,54 @@ void main()
       </tags>
   </entry>
   <entry>
+    <title>绫华！</title>
+    <url>/2023/05/27/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="/images/1.jpg" alt></p>
+]]></content>
+      <categories>
+        <category>二次元</category>
+      </categories>
+      <tags>
+        <tag>图片</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>html基础知识(一)</title>
+    <url>/2023/06/07/html/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1><span id="html基本框架">HTML基本框架</span></h1><p>代码：</p>
+<pre><code>&lt;html&gt;
+&lt;head&gt;
+&lt;tittle&gt;网页的标题&lt;/tittle&gt;
+&lt;/head&gt;
+&lt;body&gt;
+网页的主题内容
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre><h1><span id="html标签">HTML标签</span></h1><h2><span id="标题">标题</span></h2><pre><code>&lt;h1&gt;一级标题&lt;/h1&gt;
+&lt;h2&gt;二级标题&lt;/h2&gt;
+</code></pre><p>依此类推，一共有6级标题</p>
+<h2><span id="段落">段落</span></h2><pre><code>&lt;body&gt;
+&lt;p&gt;段落内容&lt;/p&gt;
+&lt;/body&gt;
+</code></pre><h2><span id="换行与水平线">换行与水平线</span></h2><p>换行符：<code>&lt;br&gt;</code><br>水平线：<code>&lt;hr&gt;</code></p>
+<h2><span id="文本格式化标签">文本格式化标签</span></h2><p><img src="/images/16.jpg" alt></p>
+<h1><span id="图片的基本使用">图片的基本使用</span></h1><h2><span id="图片的标签">图片的标签</span></h2><pre><code>&lt;img src=&quot;图片的地址&quot; alt=&quot;图片无法加载时显示的内容&quot; tittle=&quot;鼠标悬停时显示&quot; width=&quot; &quot; height=&quot; &quot;&gt;
+</code></pre><p>如果只设置了width或height中的一个，另一个会自动等比例缩放。</p>
+<h2><span id="路径">路径</span></h2><h2><span id="绝对路径">绝对路径</span></h2><p>指根目录下的绝对位置，可以直接到达目标位置，通常从盘符开始的路径。<br>例如：<br>     盘符开头：<code>D:\example\images\1.jpg</code><br>     完整网络地址：<code>https://example.com/images/1.jpg</code></p>
+<h2><span id="相对路径">相对路径</span></h2><h3><span id="同级与下级">同级与下级</span></h3><p>  同级：<code>&lt;img src=&quot;1.jpg&quot;&gt;</code><br>  下级：<code>&lt;img src=&quot;images/1.jpg&quot;&gt;</code></p>
+<h3><span id="上级">上级</span></h3><p>  <code>&lt;img src=&quot;../images/1.jpg&quot;&gt;</code></p>
+<h1><span id="音频标签">音频标签</span></h1><p> 代码：<code>&lt;audio src=&quot;./music.mp3&quot; controls&gt;&lt;/audio&gt;</code><br> <img src="/images/18.png" alt></p>
+<h1><span id="视频标签">视频标签</span></h1><p> 代码：<code>&lt;video src=&quot;./video.mp4&quot; controls&gt;&lt;/video&gt;</code><br> <img src="/images/19.png" alt></p>
+<h1><span id="超链接">超链接</span></h1><p> 代码：<code>&lt;a href=&quot;./目标网页.html&quot;&gt;</code>目标网页<code>&lt;/a&gt;</code><br> <code>&lt;a href=&quot;#&quot;&gt;</code>空连接，不知道到哪里去<code>&lt;/a&gt;</code><br> target属性值：<code>&lt;a href=&quot;./网页地址.html&quot; target=&quot; &quot;&gt;&lt;/a&gt;</code><br> <img src="/images/20.png" alt></p>
+]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>HTML</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo+github博客搭建教程</title>
     <url>/2023/05/30/new/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1><span id="一-配置环境"><strong>一、配置环境</strong></span></h1><p>Git(<a href="https://git-scm.com/">https://git-scm.com/</a>)</p>
@@ -1350,6 +1350,42 @@ void main()
       </categories>
       <tags>
         <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JS-API</title>
+    <url>/2023/08/18/8/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1><span id="apis">APIs</span></h1><h2><span id="dom">DOM</span></h2><h3><span id="获取dom元素">获取DOM元素</span></h3><p>1.选择匹配第一个元素</p>
+<p>语法：<code>document.querySelector(&#39;css选择器&#39;)</code></p>
+<p>2.选择匹配多个元素</p>
+<p>例如：<code>document.querySelectorAll(&#39;ul li&#39;)</code></p>
+<p>得到的是一个伪数组：</p>
+<ul>
+    <li>有长度索引号的数组</li>
+    <li>但是没有pop(),push()等数组方法</li>
+</ul>
+
+<p>想要得到里面的每一个对象，则需要遍历(for)数组</p>
+<h3><span id="修改元素内容">修改元素内容</span></h3><p>1.inner.Text</p>
+<p>语法：<code>box.innerText=&#39;输入内容&#39;</code></p>
+<p>2，innerHTML</p>
+<p>语法：<code>box.innerHTML=&#39;输入内容&#39;</code></p>
+<h3><span id="修改元素属性">修改元素属性</span></h3><p>最常见的属性比如：href,title,src等</p>
+<p>语法：<code>对象.属性=值</code></p>
+<h2><span id="事件监听">事件监听</span></h2><p>语法：<code>元素对象.addEventListener(&#39;事件类型,要执行的函数)</code></p>
+<p>事件监听三要素：</p>
+<ul>
+    <li>事件源：那个dom元素被事件触发了，要获取dom元素</li>
+    <li>事件类型：用什么方法触发，比如鼠标点击click，鼠标经过mouseover</li>
+    <li>事件调用函数：要做什么事</li>
+</ul>
+
+]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>js</tag>
       </tags>
   </entry>
 </search>

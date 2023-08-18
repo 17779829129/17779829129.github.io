@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="/css/layout.css">
 
 		
-		<title> 标签：CSS -  落叶之秋の小窝</title>
+		<title> JS-API -  落叶之秋の小窝</title>
 		<link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css" />
 		<script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
 		<!-- lazyload -->
@@ -301,82 +301,141 @@
 			<div class="kira-content">
 				<div id="kira-top-header"></div>
 				<div class="kira-main-content">
-					<div class="kira-posts">
-    
-        <div class="kira-post">
-            <a href="/2023/07/23/7/">
-                
-                <div
-                    class="kira-post-cover mdui-ripple"
-                    style="padding-bottom: '56.25%'"
-                >
-                    <img
-                        data-src="/images/46.jpg"
-                        data-sizes="auto"
-                        alt="CSS进阶"
-                        class="lazyload kira-post-cover-image"
-                    />
-                    <h1>CSS进阶</h1>
-                </div>
-                
-            </a>
+					
+<link rel="stylesheet" href="/css/kira-image.css">
 
-            <div class="kira-post-meta kira-rainbow">
-                <a>
-                    <i class="kirafont icon-calendar-fill"></i>
-                    2023年07月23日
-                </a>
-                <a>
-                    <i class="kirafont icon-edit-fill"></i>
-                    1.9k 字
-                </a>
-                <a>
-                    <i class="kirafont icon-time-circle-fill"></i>大概
-                    8 分钟
-                </a>
-            </div>
-    
-            
-        </div>
-        <div class="kira-hr"></div>
-    
-        <div class="kira-post">
-            <a href="/2023/07/02/5/">
-                
-                <div
-                    class="kira-post-cover mdui-ripple"
-                    style="padding-bottom: '56.25%'"
-                >
-                    <img
-                        data-src="/images/44.jpg"
-                        data-sizes="auto"
-                        alt="css基础"
-                        class="lazyload kira-post-cover-image"
-                    />
-                    <h1>css基础</h1>
-                </div>
-                
-            </a>
 
-            <div class="kira-post-meta kira-rainbow">
-                <a>
-                    <i class="kirafont icon-calendar-fill"></i>
-                    2023年07月02日
-                </a>
-                <a>
-                    <i class="kirafont icon-edit-fill"></i>
-                    510 字
-                </a>
-                <a>
-                    <i class="kirafont icon-time-circle-fill"></i>大概
-                    2 分钟
-                </a>
+<script src="/js/kira-image.js"></script>
+
+<div class="kira-image">
+    <div class="kira-image-modal">
+        <div class="kira-image-header">
+            <div class="kira-image-counter"></div>
+            <div class="kira-image-title"></div>
+            <div class="kira-image-operation">
+                <div class="kira-image-operation-button" id="kira-image-operation-button-zoom">
+                    <i class="kirafont icon-zoom-in"></i>
+                </div>
+                <div class="kira-image-operation-button" id="kira-image-operation-button-close">
+                    <i class="kirafont icon-close"></i>
+                </div>
             </div>
-    
-            
         </div>
-        <div class="kira-hr"></div>
-    
+        <div class="kira-image-container">
+            <div class="kira-image-prev-button-panel">
+                <div class="kira-image-exchange-button">
+                    <i class="kirafont icon-left"></i>
+                </div>
+            </div>
+            <div class="kira-image-list">
+                <div class="kira-image-prev">
+                    <img />
+                </div>
+                <div class="kira-image-now">
+                    <img />
+                </div>
+                <div class="kira-image-next">
+                    <img />
+                </div>
+            </div>
+            <div class="kira-image-next-button-panel">
+                <div class="kira-image-exchange-button">
+                    <i class="kirafont icon-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="kira-post">
+	<article>
+		
+		<div class="kira-post-cover">
+			<img
+				data-src="/images/47.png"
+				data-sizes="auto"
+				alt="JS-API"
+				class="lazyload kira-post-cover-image disabled-kira-image"
+			/>
+			<h1>JS-API</h1>
+		</div>
+		
+		<div class="kira-post-meta kira-rainbow" style="margin:10px 0!important;">
+			<a><i class="kirafont icon-calendar-fill"></i>2023年08月18日</a>
+			<a><i class="kirafont icon-edit-fill"></i>229 字</a>
+			<a><i class="kirafont icon-time-circle-fill"></i>大概 1 分钟</a>
+		</div>
+		<h1><span id="apis">APIs</span></h1><h2><span id="dom">DOM</span></h2><h3><span id="获取dom元素">获取DOM元素</span></h3><p>1.选择匹配第一个元素</p>
+<p>语法：<code>document.querySelector(&#39;css选择器&#39;)</code></p>
+<p>2.选择匹配多个元素</p>
+<p>例如：<code>document.querySelectorAll(&#39;ul li&#39;)</code></p>
+<p>得到的是一个伪数组：</p>
+<ul>
+    <li>有长度索引号的数组</li>
+    <li>但是没有pop(),push()等数组方法</li>
+</ul>
+
+<p>想要得到里面的每一个对象，则需要遍历(for)数组</p>
+<h3><span id="修改元素内容">修改元素内容</span></h3><p>1.inner.Text</p>
+<p>语法：<code>box.innerText=&#39;输入内容&#39;</code></p>
+<p>2，innerHTML</p>
+<p>语法：<code>box.innerHTML=&#39;输入内容&#39;</code></p>
+<h3><span id="修改元素属性">修改元素属性</span></h3><p>最常见的属性比如：href,title,src等</p>
+<p>语法：<code>对象.属性=值</code></p>
+<h2><span id="事件监听">事件监听</span></h2><p>语法：<code>元素对象.addEventListener(&#39;事件类型,要执行的函数)</code></p>
+<p>事件监听三要素：</p>
+<ul>
+    <li>事件源：那个dom元素被事件触发了，要获取dom元素</li>
+    <li>事件类型：用什么方法触发，比如鼠标点击click，鼠标经过mouseover</li>
+    <li>事件调用函数：要做什么事</li>
+</ul>
+
+
+	</article>
+
+	 
+    <div class="kira-post-copyright">
+        <strong>本文作者：</strong>落叶之秋<br>
+        <strong>本文链接：</strong><a href="http://example.com/2023/08/18/8/" title="http:&#x2F;&#x2F;example.com&#x2F;2023&#x2F;08&#x2F;18&#x2F;8&#x2F;" target="_blank" rel="noopener">http:&#x2F;&#x2F;example.com&#x2F;2023&#x2F;08&#x2F;18&#x2F;8&#x2F;</a><br>
+        
+            <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
+        
+    </div>
+
+  
+	<div class="kira-post-nav">
+		<nav class="post-nav">
+			      
+			<!-- 先找到与当前文字相同的目录 -->
+			                  
+			<!-- 在找到当前文章所在的 index -->
+			                    
+			<!-- 上一篇文章 -->
+			<div class="old">
+				<span>上一章</span>
+				<a href="/2023/07/23/7/"> CSS进阶</a>
+			</div>
+			                  
+		</nav>
+	</div>
+	
+	<div class="kira-post-meta kira-rainbow">
+		
+			<a class="kirafont icon-container-fill -link" href="/categories/%E5%89%8D%E7%AB%AF/">前端</a>
+		
+		
+			<a class="kirafont icon-tag-fill -none-link" href="/tags/js/" rel="tag">js</a>
+		
+	</div>
+	
+		<script src="/js/kira-code-copy.js"></script>
+	
+	
+	<div class="kira-post-footer">
+		
+
+		
+	</div>
+	
 </div>
 
 				</div>
