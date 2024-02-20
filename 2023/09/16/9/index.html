@@ -281,7 +281,7 @@
 		
 	</aside>
 	<div class="kira-copyright">
-		&copy; 2023
+		&copy; 2024
 		<a href="/">落叶之秋</a>
 		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> &
 		<a href="https://github.com/ch1ny/kira-hexo/" target="_blank">Kira-Hexo</a>
@@ -368,8 +368,8 @@
 		
 		<div class="kira-post-meta kira-rainbow" style="margin:10px 0!important;">
 			<a><i class="kirafont icon-calendar-fill"></i>2023年09月16日</a>
-			<a><i class="kirafont icon-edit-fill"></i>543 字</a>
-			<a><i class="kirafont icon-time-circle-fill"></i>大概 2 分钟</a>
+			<a><i class="kirafont icon-edit-fill"></i>758 字</a>
+			<a><i class="kirafont icon-time-circle-fill"></i>大概 3 分钟</a>
 		</div>
 		<h1><span id="5g知识点">5G知识点</span></h1><h2><span id="1理论知识">1.理论知识</span></h2><h3><span id="11基站核心网">1.1基站，核心网</span></h3><p>5G基站：5GC，5G核心网：gNB,<br>4G基站：EPC，4G核心网：eNB,<br>若是把 5G 的基站接入到 4G 的核心网中，则构<br>成核心网: EPC,基站: en-gNB<br>若是把 4G 的基站接入到 5G 的核心网中，则构<br>成核心网: 5GC， 基站: ng-eNB</p>
 <p>上行速度：指移动终端向基站发送信息时的数据传输速率，好比手机、笔记本等无线终端<br>给基站传输数据速率;</p>
@@ -395,6 +395,38 @@
     <li>本地宽带的网络质量;</li>
     <li>从本地访问至网站所通过的节点数量;</li>
 </ol>
+
+<h2><span id="5gnr中rrc的三种状态">5G/NR中RRC的三种状态</span></h2><p>RRC_IDLE（空闲模式）：</p>
+<ul>
+    <li>PLMN选择;</li>
+    <li>广播系统信息;</li>
+    <li>小区重选移动性;</li>
+    <li>移动终止数据的寻呼由5GC发起;</li>
+    <li>移动终接数据区域的寻呼由5GC管理;</li>
+    <li>由NAS配置的用于CN寻呼的DRX。</li>
+</ul>
+
+<p>RRC_INACTIVE(去激活模式) ：</p>
+<ul>
+   <li> PLMN选择;</li>
+    <li>广播系统信息;</li>
+    <li>小区重选移动性;</li>
+    <li>寻呼由NG-RAN（RAN寻呼）发起;</li>
+    <li>基于RAN的通知区域（RNA）由NG-RAN管理;</li>
+    <li>由NG-RAN配置的RAN寻呼DRX;</li>
+    <li>为UE建立5GC-NG-RAN连接（包括控制面 / 用户面）;</li>
+    <li>UE AS报文存储在NG-RAN和UE中;</li>
+    <li>NG-RAN知道UE所属的RNA。</li>
+</ul>
+
+<p>RRC_ACTIVE (CONNECTED)（连接模式）：</p>
+<ul>
+    <li>为UE建立5GC-NG-RAN连接（包括控制面 / 用户面）;</li>
+    <li>UE AS报文存储在NG-RAN和UE中;</li>
+    <li>NG-RAN知道UE所属的小区;</li>
+    <li>向或从UE传输单播数据;</li>
+    <li>网络控制移动性，包括测量。</li>
+</ul>
 	</article>
 
 	 
