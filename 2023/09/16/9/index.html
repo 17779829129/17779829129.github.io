@@ -368,8 +368,8 @@
 		
 		<div class="kira-post-meta kira-rainbow" style="margin:10px 0!important;">
 			<a><i class="kirafont icon-calendar-fill"></i>2023年09月16日</a>
-			<a><i class="kirafont icon-edit-fill"></i>758 字</a>
-			<a><i class="kirafont icon-time-circle-fill"></i>大概 3 分钟</a>
+			<a><i class="kirafont icon-edit-fill"></i>949 字</a>
+			<a><i class="kirafont icon-time-circle-fill"></i>大概 4 分钟</a>
 		</div>
 		<h1><span id="5g知识点">5G知识点</span></h1><h2><span id="1理论知识">1.理论知识</span></h2><h3><span id="11基站核心网">1.1基站，核心网</span></h3><p>5G基站：5GC，5G核心网：gNB,<br>4G基站：EPC，4G核心网：eNB,<br>若是把 5G 的基站接入到 4G 的核心网中，则构<br>成核心网: EPC,基站: en-gNB<br>若是把 4G 的基站接入到 5G 的核心网中，则构<br>成核心网: 5GC， 基站: ng-eNB</p>
 <p>上行速度：指移动终端向基站发送信息时的数据传输速率，好比手机、笔记本等无线终端<br>给基站传输数据速率;</p>
@@ -396,7 +396,7 @@
     <li>从本地访问至网站所通过的节点数量;</li>
 </ol>
 
-<h2><span id="5gnr中rrc的三种状态">5G/NR中RRC的三种状态</span></h2><p>RRC_IDLE（空闲模式）：</p>
+<h3><span id="5gnr中rrc的三种状态">5G/NR中RRC的三种状态</span></h3><p>RRC_IDLE（空闲模式）：</p>
 <ul>
     <li>PLMN选择;</li>
     <li>广播系统信息;</li>
@@ -427,6 +427,9 @@
     <li>向或从UE传输单播数据;</li>
     <li>网络控制移动性，包括测量。</li>
 </ul>
+
+<h3><span id="mib信令携带的内容">MIB信令携带的内容</span></h3><p><ul><br>    <li>System frame number (SFN)和Subframe configuration：用于标识系统帧号和子帧配置，让UE知道如何解析PDCCH和PDSCH的资源分配。</li><br>    <li>Cell ID：用于标识小区ID，让UE能够正确地连接到目标小区进行通信。</li><br>    <li>Physical cell ID：用于标识物理小区ID，让UE能够正确地完成同步过程，并被分配资源。</li><br>    <li>Downlink channel bandwidth：用于标识下行信道带宽，使UE能够准确地了解当前小区可提供的最大带宽。</li><br>    <li>PHICH duration, Resources and Power：用于描述PHICH的持续时间、资源和功率，PHICH是向UE传输上行 HARQ ACK/NACK 信息时使用的控制信道。</li><br>    <li>PDSCH power controloffset：用于描述下行PDSCH功率控制偏移值。</li></ul></p>
+
 	</article>
 
 	 
